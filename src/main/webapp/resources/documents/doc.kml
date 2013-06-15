@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Madrid</name>
+	<open>1</open>
+	<Style id="ptoblunormal">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="ptobluhigh">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-stars.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="ptoblustyle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#ptoblunormal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#ptobluhigh</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<description>COP-13001111VALDEMORO28340LUGAR PARCELA UDE OESTE-NORTE URBANA S.G.E. AV. DE ESPAÑ, 0OPON SPORT LIFE CENTER, S. L.004104133441358NOSI</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.69030816656,40.1924310145,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001042ALCOBENDAS28100CALLE VALENCIA, 78URZAIZ VIGO S.L.200004134541773</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.64071757016,40.5503966776,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001122madrid28050LUGAR parcela c1a-03 del pau las tablasCONSTRUCCIONES AMENABAR, S.A.48021024139541974</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.68004208362,40.3006846156,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001138getafe28902CALLE san josé de calasanz, 12LOS ALERCES SOCIEDAD COOPERATIVA MADRILEÑA1901814131841639</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.73004080852,40.3106863824,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001139valdemoroN/E parcela rc.ii-5 plan parcial sector ude oestenorte, 0IVIMA (INSTITUTO DE LA VIVIENDA DE MADRID)2405050644133441394</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.69184308565,40.2012780748,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001043madrid28033CALLE mar de aral, 15COMUNIDAD DE PROPIETARIOS3200714130941428</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.64135330702,40.4758534092,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001046tres cantos28770CALLE Francos Rodríguez, 36BESCAREV. SOCIEDAD COOPERATIVA MADRILEÑA NIF: F-84903038 FRANCOS RODRÍGUEZ, 36. 1º 28039-MADRID3800924128441319</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.71846413821,40.6165501965,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001107GETAFE28902CALLE MÉNDEZ NÚÑEZ, 3BEATRIZ GARCÍA UTIEL300614130641577</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.73004080852,40.3106863824,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001085fuenlabrada28947CALLE bembibre, 16ESIN TRES, S.L.0017104129741424</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.74815205611,40.2647677371,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001159madrid28041CALLE González Feito, 7PROYECTOS, ACTUACIONES, CONSTRUCCIONES Y OBRAS S.L.1800514132541912</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.69471650514,40.3800041734,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001168madrid28028CALLE martínez izquierdo, 4LUANTE PROMOCIONES DIVERSAS, S.L.19011014136541943</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.68004208362,40.3006846156,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001186madrid28047CALLE Francisca Armada, 22PROYECTOS, ACTUACIONES, CONSTRUCCIONES Y OBRAS S.L.2200434133441973</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.74110783551,40.4036081564,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001187alcorcón28922LUGAR Parcela 25.1, Ensanche SurRESIDENCIAL ENTREMARES 2009 SOCIEDAD COOPERATIVA MADRILEÑA DE VIVIENDAS5600314133441796</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.82278215661,40.3305596059,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001201majadahonda28222LUGAR Manzana RUH-6 del P.P. “Roza Martín”, Calles RigolAFAR 4, S.L.2400204133441897</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.8897276012,40.4522171277,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001202madrid28039CALLE Martínez, 17TEODORO SALMADOR BELTRÁN800414133841932</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.70361045161,40.4591668623,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001179madrid28004CALLE Silva, 15SILVA CAPITAL, S.L.702514133141626</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.70611352351,40.4211065641,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001089pozuelo de alarcón28223CALLE Doctor RasoCALEDONIAN INMOBILIARIA S.L.U.2100314130641672</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.7855512751,40.4272246091,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001182san sebastian de los reyes28701LUGAR Parcela C3-2 del Plan  Parcial AR1 TempranalesGRUPO INMOBILIARIO FERROCARRIL S.A.112005144133141820</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.64583040408,40.5588905743,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001211madrid28027CALLE Doctor Zamenhof, 38ECC VIVIENDAS S.A2600514133842136</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.62805197399,40.446106687,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001213AJALVIR28864CALLE REAL, 23MARÍA GONZÁLEZ GARCÍA500414133841663</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.482444145520001,40.533643785,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001214MADRID28034CALLE ANASTASIA LÓPEZ, 11MARÍA CONCEPCIÓN CRESPO NÚÑEZ200414134641810</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.69086131017,40.494901219,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001216madrid28020Parcela 172-D ValdebebasPLANIFICACIÓN RESIDENCIAL Y GESTIÓN S.A.60001114134842055</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.61110907866,40.499719877,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001217getafe28905Parcela 11, Sector PP-03, “Buenavista”INMOBILIARIA Y VIVIENDAS FERROCARRIL S.L.U.15500564134842272</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.7486060287,40.3016666194,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001219MADRID28055LUGAR PARCELA 133-C DEL PARQUE DE VALDEBEBAS, 0EMPRESA MUNICIPAL DE LA VIVIENDA Y SUELO7100824142442075</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.61386439686,40.4977413223,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001220madrid28006CALLE conde de peñalver, 24VAM VIVIENDAS EXCLUSIVAS SOC. COOP. MADRILEÑA1201614140942075</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.67526004472,40.4276783314,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001221SAN SEBASTIAN DE LOS REYES28700LUGAR PARCELA 5D-A &quot;EL SOTO DE TEMPRANALES&quot;, 0VAM VIVIENDAS EXCLUSIVAS SOC. COOP. MADRILEÑA5200394143841535</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-1.48874389717,0,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001259colmenar viejo28770LUGAR Parcela RC-11.2 del Sector IPRYCONSA, S.A3800624134841759</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.78583517031,40.6486146638,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001271madrid28003PASEO francisco de sales, 15TABEIROS GESTION GLOBAL DE INMUEBLES S.L175001234135541547</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.71532094236,40.4412481662,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001276madrid28050PQUE de Valdebebas, Sector US.0401 Parcela RES.03 – P13VIRIMA, SOCIEDAD COOPERATIVA MADRILEÑA63001324137941547</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.61126107264,40.4969623363,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001278fuenlabrada28942CALLE del maestro, 22GADEPRA S.L.1200614136141387</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.81359696544,40.2812633244,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001314madrid28050LUGAR parcela 139 a ciudad aeroportuariaC. P. PROMOTORA, S.L.3000544138041690</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.61166559967,40.4947259768,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001327madrid28012CALLE meson de paredes, 15INGRAP S.L.1602514151841579</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.7047692916,40.4108985128,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001330majadahonda30520CALLE san lucas, 6MONTE VIÑA GRANDE S.L., REPRESENTADA POR DÑA ALMUDENA AZNAR SAINZ600314151941547</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.87636589539,40.4739856688,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001345FUENLABRADA28942CALLE CLAVELES S/N, PARCELA 9.4 SECTOR PP II-2 EL VIVEROGADEPRA S.L.1800714139441701</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.82298808983,40.2951701553,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001346FUENLABRADA28942AVDA DE LA UNIVERSIDAD Nº 38-56, 38GADEPRA S.L.10003104139441638</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.81307532088,40.2809246423,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001355ALALPARDO28130CALLE MARQUES DE AUÑON c/v GASPAR DE PINEDOCOMPAÑÍA DE GESTIÓN DE SERVICIOS S.L1500314140941810</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.47950476605,40.6280597237,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001362madrid28002CALLE Príncipe de Vergara, 120URBANIZADORA, CONSTRUCTORA LEVANTINA, S.A. (URCOLESA)40021014140341670</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.67838177697,40.4415249382,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001366madrid28050PQUE DE valdebebas, RE-02-134-c del ámbito U.S. 04.04, 134DACIA SOCIEDAD COOPERATIVA MADRILEÑA67001114140041654</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.61948555153,40.4943059413,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001417madrid28005CALLE maldonadas, 9 y 11, 9MELON, S.A.3028824151941963</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.68004208362,40.3006846156,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001425alcala de henares28801CALLE santiago, 42JOAQUIN BRU DE ARAGON Y OTROS CB500314142441851</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.350570207050001,40.4845697888,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>COP-13001429madrid28049CALLE monasterio de sobrado, 13COMUNIDADES GESTIONADAS, S.A.7300884154842093</description>
+		<styleUrl>#ptoblustyle</styleUrl>
+		<Point>
+			<coordinates>-3.68013243452,40.309693306,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
