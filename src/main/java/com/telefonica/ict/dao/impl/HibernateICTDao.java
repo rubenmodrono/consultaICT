@@ -33,4 +33,10 @@ public class HibernateICTDao implements ICTDao {
 				.add(Restrictions.eq("province", provinceId)).list();
 	}
 
+
+	
+	public void persistICT(ICT ict) {
+		getCurrentSession().persist(ict);
+	}
+
 }

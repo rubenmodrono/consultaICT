@@ -35,6 +35,8 @@ public class WebAppConfig {
     private static final String PROPERTY_NAME_HIBERNATE_DIALECT = "hibernate.dialect";
     private static final String PROPERTY_NAME_HIBERNATE_SHOW_SQL = "hibernate.show_sql";
     private static final String PROPERTY_NAME_ENTITYMANAGER_PACKAGES_TO_SCAN = "entitymanager.packages.to.scan";
+    private static final String PROPERTY_HIBERNATE_ENABLE_LAZY_LOAD = "hibernate.enable_lazy_load_no_trans";
+    
     
 	@Resource
 	private Environment env;
@@ -64,6 +66,8 @@ public class WebAppConfig {
 		properties.put(PROPERTY_NAME_HIBERNATE_AUTO, env.getRequiredProperty(PROPERTY_NAME_HIBERNATE_AUTO));
 		properties.put(PROPERTY_NAME_HIBERNATE_DIALECT, env.getRequiredProperty(PROPERTY_NAME_HIBERNATE_DIALECT));
 		properties.put(PROPERTY_NAME_HIBERNATE_SHOW_SQL, env.getRequiredProperty(PROPERTY_NAME_HIBERNATE_SHOW_SQL));
+		properties.put(PROPERTY_NAME_HIBERNATE_SHOW_SQL, env.getRequiredProperty(PROPERTY_NAME_HIBERNATE_SHOW_SQL));
+		properties.put(PROPERTY_HIBERNATE_ENABLE_LAZY_LOAD, env.getRequiredProperty(PROPERTY_HIBERNATE_ENABLE_LAZY_LOAD));
 		return properties;	
 	}
 	

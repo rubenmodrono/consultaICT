@@ -26,10 +26,14 @@ public class HibernateProvinceDao implements ProvinceDao {
 		return getCurrentSession().createCriteria(Province.class).list();
 	}
 
-	@Override
 	public Province findById(Integer id) {
 		return (Province)getCurrentSession().createCriteria(Province.class)
 				.add(Restrictions.eq("provinceId", id)).uniqueResult();
+	}
+	
+	public void persistProvince(Province province) {
+		getCurrentSession().persist(province);
+		
 	}
 
 }

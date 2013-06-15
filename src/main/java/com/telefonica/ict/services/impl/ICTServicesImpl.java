@@ -22,9 +22,14 @@ public class ICTServicesImpl implements ICTServices {
 		return dao.findByProvince(provinceId);
 	}
 
-	@Override
+
 	public ICT getICTByID(Long ictId) {
 		return dao.findById(ictId);
+	}
+
+
+	public void saveICT(ICT ict) {
+		dao.persistICT(ict);
 	}
 
 	

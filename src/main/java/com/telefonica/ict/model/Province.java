@@ -83,6 +83,11 @@ public class Province {
 			return false;
 		return true;
 	}
+
+	@Override
+	public String toString() {
+		return "Province [provinceId=" + provinceId + ", name=" + name + "]";
+	}
 	
 	
 

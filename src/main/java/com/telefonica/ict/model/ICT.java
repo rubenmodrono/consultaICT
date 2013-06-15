@@ -77,5 +77,12 @@ public class ICT {
 		return true;
 	}
 
+	@Override
+	public String toString() {
+		return "ICT [description=" + description + ", coordinates="
+				+ coordinates + "]";
+	}
+
+	
 	
 }

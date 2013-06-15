@@ -8,5 +8,6 @@ public interface ICTDao {
 
 	public ICT findById(Long id);
 	public List<ICT> findByProvince(Integer provinceId);
+	public void persistICT(ICT ict);
 	
 }

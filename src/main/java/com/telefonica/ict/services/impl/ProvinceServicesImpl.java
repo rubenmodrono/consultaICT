@@ -24,6 +24,9 @@ public class ProvinceServicesImpl implements ProvinceServices {
 	public Province getById(Integer id) {
 		return pDAO.findById(id);
 	}
-
+	
+	public void saveProvince(Province province){
+		pDAO.persistProvince(province);
+	}
 
 }
