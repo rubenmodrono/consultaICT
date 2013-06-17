@@ -1,6 +1,7 @@
 package com.telefonica.ict.controller;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
@@ -15,6 +16,8 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.telefonica.ict.form.ProvinceFormBean;
 import com.telefonica.ict.model.ICT;
@@ -47,6 +50,12 @@ public class LinkController {
 		return "home";
 		
 	}
+	
+	@RequestMapping(value="getICT.do", method=RequestMethod.GET)
+	public @ResponseBody String getRecordData(@RequestParam Integer provinceId,HttpServletRequest request) throws IOException{
+		
+		return "home";
+	}
 
 	@RequestMapping(method=RequestMethod.GET,value="volcar.do")
 	public String volcarDatos(HttpServletRequest request) {
@@ -62,6 +71,7 @@ public class LinkController {
 		String FilePath = sc.getRealPath("/");
 		String outPath = FilePath + rb.getString("documents.store.path");
 		archivo = new File(outPath+"\\doc.kml");
+		
 		final Kml kml = Kml.unmarshal(archivo);
 		
 		Document doc = (Document)kml.getFeature();

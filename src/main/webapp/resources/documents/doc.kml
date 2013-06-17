@@ -205,13 +205,6 @@
 		</Point>
 	</Placemark>
 	<Placemark>
-		<description>COP-13001221SAN SEBASTIAN DE LOS REYES28700LUGAR PARCELA 5D-A &quot;EL SOTO DE TEMPRANALES&quot;, 0VAM VIVIENDAS EXCLUSIVAS SOC. COOP. MADRILEÑA5200394143841535</description>
-		<styleUrl>#ptoblustyle</styleUrl>
-		<Point>
-			<coordinates>-1.48874389717,0,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark>
 		<description>COP-13001259colmenar viejo28770LUGAR Parcela RC-11.2 del Sector IPRYCONSA, S.A3800624134841759</description>
 		<styleUrl>#ptoblustyle</styleUrl>
 		<Point>

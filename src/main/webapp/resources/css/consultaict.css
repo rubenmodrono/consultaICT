@@ -4,7 +4,7 @@ html{
 
 body {
 	font-family: Trebuchet MS,Lucida Grande,sans-serif;
-	/*background-image:url("../images/bodyBackground.png");*/
+	background-image:url("../images/bodyBackground.png");
 	background-position:top;
    	background-repeat: repeat-x;
    	background-color: #FFF; 
@@ -15,7 +15,7 @@ body {
 
 #title{
 	background-color: #0E2A8B;
-	/*background-image:url("../images/bodyBackground.png");*/
+	background-image:url("../images/bodyBackground.png");
 	color: #FFF;
 	width: 100%;
 	height:88px;
@@ -45,6 +45,7 @@ body {
 }
 
 #menu{
+	color: #FFF;
 	position:absolute;
 	margin: 2em;
 	width:30%;
