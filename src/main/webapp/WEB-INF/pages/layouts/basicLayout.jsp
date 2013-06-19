@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <tiles:insertAttribute name="head" />
-<body onload="initialize()"> 
+<body> 
     <div id="title">
     	<tiles:insertAttribute name="header" />
     </div>

@@ -10,6 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
+import org.springframework.http.converter.json.MappingJacksonHttpMessageConverter;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.hibernate4.HibernateTransactionManager;
 import org.springframework.orm.hibernate4.LocalSessionFactoryBean;
@@ -92,4 +93,8 @@ public class WebAppConfig {
 		return tiles;
 	}
 
+	@Bean
+	public MappingJacksonHttpMessageConverter jacksonConverter(){
+		return new MappingJacksonHttpMessageConverter();
+	}
 }

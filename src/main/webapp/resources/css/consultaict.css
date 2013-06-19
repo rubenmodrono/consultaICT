@@ -8,7 +8,6 @@ body {
 	background-position:top;
    	background-repeat: repeat-x;
    	background-color: #FFF; 
-	font-size: 0.95em;
 	margin: 0;
 	padding: 0;
 }
@@ -57,116 +56,34 @@ body {
 	float: right;
 }
 
-#info{
-	font-size: 0.9em;
-	color:white;
-	text-align:center;
-	font-family:Arial,Verdana;
+#dialog, .ui-dialog-title{
+	font-size: 0.6em;
 }
-.backButton{
-	text-decoration: none;
-	font-size: 1em;	
-	margin: 15px 10px 15px;
-	vertical-align: middle;
-}
-
-.backButton img{
-	margin-right: 0.5em;
-	}
-.backButton a{
-	text-decoration: none;
-	color: #FFFFFF;
-	vertical-align: middle;
-	}
-
-table#record {
-	border-collapse: collapse;
-	border: 1px solid #AAAAAA;
-	width: 100%;
-	font-size: 0.9em;
-	}
-
-table#record tr{
-		
-		line-height: 1.2em;
-        height: 2.4em;
-        overflow: hidden;
-
-	}
-th {
-	background: #D8D8D8;
-	color: #00000;
-	font-weight: bold;
-	padding: 0.5em;
-	text-align: center;
-	line-height: 1.2;
-	font-size: 1.1em;
-}
-
-.longText{
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	}	
-
-table#record td{
-	padding: 0.5em;
-	border-bottom: 1px solid #AAAAAA;
-	vertical-align: top;
-}
-
-.dataTables_wrapper {
-   width:80%;
-   margin-left: 9em;
-}					
-
-ul li {
-	padding: 5px;
-	
-}
-
-tr.over td,td.sorting_1{
-	background: #376f28;
-}
-
-tr.over  {
-    background-color: #376f28;
-}
-
-.ui-state-default .ui-icon {
-	float:left;	
-	}
 
 img{
 	border:0;
 	}
 
-button.ui-button-icon-only {
-    height: 2.5em;
-    width: 2.4em;
-    vertical-align: top;
+.ui-menu-item{
+	font-size: 0.6em;
 }
 
-.ui-button { margin-left: -1px;height: 0.5em; font-size: 0.95em; font-weight: bold; }
-.ui-button-icon-only .ui-button-text { 
-	padding: 0.35em;
- 	height: 2.5em;
-    width: 2.4em;
-    vertical-align: top;
-   
-} 
-.ui-autocomplete-input { margin: 0; padding: 0.48em 0 0.47em 0.45em; }
-
-
-
-.paging_full_numbers span.paginate_button {
-    background-color: #DDDDDD;
-}
-
-.paging_full_numbers span.paginate_button, .paging_full_numbers span.paginate_active {
-    -moz-border-radius: 5px 5px 5px 5px;
-    border: 1px solid #AAAAAA;
-    cursor: pointer;
-    margin: 0 3px;
-    padding: 2px 5px;
-}
+.custom-combobox {
+    position: relative;
+    display: inline-block;
+    font-size: 0.6em;
+  }
+  .custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+    /* support: IE7 */
+    *height: 1.7em;
+    *top: 0.1em;
+  }
+  .custom-combobox-input {
+    margin: 0;
+    padding: 0.3em;
+  }

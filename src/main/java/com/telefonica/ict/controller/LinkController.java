@@ -1,7 +1,6 @@
 package com.telefonica.ict.controller;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
@@ -45,18 +44,21 @@ public class LinkController {
    
 	
 	@RequestMapping(method=RequestMethod.GET,value="initPage.do")
-	public String initApp(@ModelAttribute("provinceFormBean") ProvinceFormBean provinceFormBean, BindingResult result, ModelMap model) {
+	public String initApp(@ModelAttribute("provinceFormBean") ProvinceFormBean provinceFormBean, ModelMap model) {
 		model.addAttribute("provinces", provinceServices.getAll());
 		return "home";
 		
 	}
 	
-	@RequestMapping(value="getICT.do", method=RequestMethod.GET)
-	public @ResponseBody String getRecordData(@RequestParam Integer provinceId,HttpServletRequest request) throws IOException{
-		
-		return "home";
+	
+	@RequestMapping(value="getProvince.do", method = RequestMethod.GET)
+	public @ResponseBody String getProvince(@RequestParam String province) {
+		Province pro = provinceServices.getById(new Integer(province));
+		System.out.println(pro);
+		return "cucutras";
 	}
 
+	
 	@RequestMapping(method=RequestMethod.GET,value="volcar.do")
 	public String volcarDatos(HttpServletRequest request) {
 		Province province = provinceServices.getById(28);

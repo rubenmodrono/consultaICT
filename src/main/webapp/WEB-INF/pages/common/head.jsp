@@ -13,24 +13,24 @@
 	<script type="text/javascript" src="resources/js/jquery-ui-1.10.3.custom.min.js"></script>
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	<script type="text/javascript">
-
 	
-	function initialize() {
-		var latlng = new google.maps.LatLng(40.4036081564,-3.74110783551);
-		
-		var settings = {
-			zoom: 5,
-			center: latlng,
-			mapTypeControl: true,
-			mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
-			navigationControl: true,
-			navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
-			mapTypeId: google.maps.MapTypeId.ROADMAP
-			};
-		
-			var map = new google.maps.Map(document.getElementById("map_canvas"), settings);
+	$(function() {
+		initMap();	
 
-			$( "#dialog" ).dialog({autoOpen: false});
-    }
+		initCombo();
+		
+		$( "#dialog" ).dialog({autoOpen: false});
+
+
+		 $( "#combobox" ).combobox({ change: function() { loadKML(); }});
+         $( "#toggle" ).click(function() {
+             $( "#combobox" ).toggle();
+         });
+         $("#combobox").change(function() {
+           	loadKML();
+         });
+		
+		$("#combobox").combobox();
+    });
 	</script>
 </head>
