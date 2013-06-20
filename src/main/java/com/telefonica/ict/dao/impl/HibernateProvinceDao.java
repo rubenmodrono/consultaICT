@@ -2,8 +2,10 @@ package com.telefonica.ict.dao.impl;
 
 import java.util.List;
 
+import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -22,8 +24,10 @@ public class HibernateProvinceDao implements ProvinceDao {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public List<Province> findAll() {
-		return getCurrentSession().createCriteria(Province.class).list();
+	public List<Province> findAll() {	
+		Criteria c = getCurrentSession().createCriteria(Province.class);
+		c.addOrder(Order.asc("name"));
+		return c.list();
 	}
 
 	public Province findById(Integer id) {

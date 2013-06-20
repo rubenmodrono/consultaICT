@@ -15,22 +15,12 @@
 	<script type="text/javascript">
 	
 	$(function() {
-		initMap();	
 
-		initCombo();
-		
 		$( "#dialog" ).dialog({autoOpen: false});
-
-
-		 $( "#combobox" ).combobox({ change: function() { loadKML(); }});
-         $( "#toggle" ).click(function() {
-             $( "#combobox" ).toggle();
-         });
-         $("#combobox").change(function() {
-           	loadKML();
-         });
 		
-		$("#combobox").combobox();
+		initMap();	
+			
+
     });
 	</script>
 </head>

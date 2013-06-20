@@ -1,9 +1,9 @@
 <%@ page language="java" pageEncoding="ISO-8859-1" %>
 <div id="leftBanner">
-	<img alt="banner" src="resources/images/telefonica.jpg">
+	<img alt="banner" src="resources/images/telefonica.gif">
 </div>
 <div id="centerTitle">
-Consulta ICT's
+Mecanismo de Consulta ICT
 </div>
 <div id="rightBanner">
 
