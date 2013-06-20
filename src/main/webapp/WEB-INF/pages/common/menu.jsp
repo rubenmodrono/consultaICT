@@ -3,9 +3,9 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 
 
-<form:form method="POST" commandName="provinceFormBean">
+<form:form commandName="provinceFormBean" action="javascript:loadKML();">
 	<form:label path="province">Seleccione una provincia: </form:label>
- 	<form:select path="province"  items="${provinces}" itemValue="provinceId" itemLabel="name" onchange="javascritp:loadKML();"/>
+ 	<form:select id="combobox" path="province"  items="${provinces}" itemValue="provinceId" itemLabel="name" onchange="javascritp:loadKML();"/>
 </form:form>
 
 <div id="dialog" title="Datos no accesibles">

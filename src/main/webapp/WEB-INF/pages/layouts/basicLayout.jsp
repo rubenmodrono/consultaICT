@@ -3,18 +3,20 @@
 "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <tiles:insertAttribute name="head" />
-<body onload="initialize()"> 
-    <div id="title">
-    	<tiles:insertAttribute name="header" />
-    </div>
-    <div id="content">
-    	<div id="menu">
-    		<tiles:insertAttribute name="menu" />
-    	</div>
-    	<div id="map">
-    		<tiles:insertAttribute name="body" />
-    	</div>
-    	<div class="clean"></div>
+<body class="index"> 
+	<div class="general">
+	    <div id="title">
+	    	<tiles:insertAttribute name="header" />
+	    </div>
+	    <div id="content">
+	    	<div id="menu">
+	    		<tiles:insertAttribute name="menu" />
+	    	</div>
+	    	<div id="map">
+	    		<tiles:insertAttribute name="body" />
+	    	</div>
+	    	<div class="clean"></div>
+	    </div>
     </div>
 </body> 
 </html>
