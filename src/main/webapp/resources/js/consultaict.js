@@ -16,6 +16,14 @@ function initMap(){
 		return new google.maps.Map(document.getElementById("map_canvas"), settings);
 }
 
+
+  var infowindow;
+
+ 
+
+
+
+
 function loadKML(){
 	
 	var value =  $('#combobox').val();
@@ -36,13 +44,17 @@ function loadKML(){
 		
 	var map = initMap();
 
-	var myParser = new geoXML3.parser({map: map});
-	if (value ==28){
-		myParser.parse('resources/documents/madrid.kml');
-	} else if (value == 33){
-		myParser.parse('resources/documents/asturias.kml');
-	} else if (value == 06){
-		myParser.parse('resources/documents/badajoz.kml');
-	}
+	var myParser = new geoXML3.parser({map: map, singleInfoWindow:true});
 	
+	var kmlUrl='';
+	
+	if (value ==28){
+		kmlUrl ='resources/documents/madrid.kml';	
+	} else if (value == 33){
+		kmlUrl='resources/documents/asturias.kml';
+	} else if (value == 06){
+		kmlUrl='resources/documents/badajoz.kml';
+	}
+
+	myParser.parse(kmlUrl);
 }
