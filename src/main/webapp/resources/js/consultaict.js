@@ -1,6 +1,7 @@
 
 
 function initMap(){
+	
 	var latlng = new google.maps.LatLng(40.4036081564,-3.74110783551);
 	
 	var settings = {
@@ -17,13 +18,6 @@ function initMap(){
 }
 
 
-  var infowindow;
-
- 
-
-
-
-
 function loadKML(){
 	
 	var value =  $('#combobox').val();
@@ -36,7 +30,7 @@ function loadKML(){
 		return;
 	}
 	
-	if (value!=28 && value!=33 && value!=06){
+	if (value!=28 && value!=33 && value!=6){
 		$( "#dialog" ).dialog( "open" );
 		initMap();
 		return;

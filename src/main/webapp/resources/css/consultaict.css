@@ -17,7 +17,7 @@ html{
 }
 
 .index {
-	background: url("../images/bg-network.jpg") #000000 center top no-repeat;
+	background: url("../img/bg-network.jpg") #000000 center top no-repeat;
 }
 
 body {
@@ -48,7 +48,7 @@ body {
 
 #title{
 	width: 100%;
-	background: url("../images/bgd_cabecera.png") center top no-repeat;
+	background: url("../img/bgd_cabecera.png") center top no-repeat;
 	}
 
 #leftBanner{

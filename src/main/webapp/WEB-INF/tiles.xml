@@ -7,13 +7,27 @@
         template="/WEB-INF/pages/layouts/basicLayout.jsp">
         <put-attribute name="head" value="/WEB-INF/pages/common/head.jsp" />
         <put-attribute name="header" value="/WEB-INF/pages/common/header.jsp" />
+        <put-attribute name="tabs" value="/WEB-INF/pages/common/tabs.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/pages/common/footer.jsp" />
+    </definition>
+    
+    <definition name="complex"
+        template="/WEB-INF/pages/layouts/complexLayout.jsp">
+        <put-attribute name="head" value="/WEB-INF/pages/common/head.jsp" />
+        <put-attribute name="header" value="/WEB-INF/pages/common/header.jsp" />
+        <put-attribute name="tabs" value="/WEB-INF/pages/common/tabs.jsp" />
         <put-attribute name="menu" value="/WEB-INF/pages/common/menu.jsp" />
         <put-attribute name="body" value="" />
         <put-attribute name="footer" value="/WEB-INF/pages/common/footer.jsp" />
     </definition>
  
-    <definition name="home" extends="basic">
+    <definition name="home" extends="complex">
         <put-attribute name="body" value="/WEB-INF/pages/home.jsp" />
+    </definition>
+    
+     <definition name="volcado" extends="basic">
+        <put-attribute name="body" value="/WEB-INF/pages/import.jsp" />
     </definition>
  
 </tiles-definitions>

@@ -15,6 +15,7 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.hibernate4.HibernateTransactionManager;
 import org.springframework.orm.hibernate4.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.UrlBasedViewResolver;
 import org.springframework.web.servlet.view.tiles3.TilesConfigurer;
@@ -37,7 +38,7 @@ public class WebAppConfig {
     private static final String PROPERTY_NAME_HIBERNATE_SHOW_SQL = "hibernate.show_sql";
     private static final String PROPERTY_NAME_ENTITYMANAGER_PACKAGES_TO_SCAN = "entitymanager.packages.to.scan";
     private static final String PROPERTY_HIBERNATE_ENABLE_LAZY_LOAD = "hibernate.enable_lazy_load_no_trans";
-    
+
     
 	@Resource
 	private Environment env;
@@ -96,5 +97,10 @@ public class WebAppConfig {
 	@Bean
 	public MappingJacksonHttpMessageConverter jacksonConverter(){
 		return new MappingJacksonHttpMessageConverter();
+	}
+	
+	@Bean
+	public CommonsMultipartResolver multipartResolver(){
+		return new CommonsMultipartResolver();
 	}
 }

@@ -10,10 +10,16 @@
 	    </div>
 	    <div id="tabs">
 	    	<tiles:insertAttribute name="tabs" />
-	   	</div>
-	    <div id="content">
-	    	<tiles:insertAttribute name="body" />
 	    </div>
-    </div>
+	    <div id="content">
+	    	<div id="menu">
+	    		<tiles:insertAttribute name="menu" />
+	    	</div>
+	    	<div id="map">
+	    		<tiles:insertAttribute name="body" />
+	    	</div>
+	    	<div class="clean"></div>
+	 	</div>
+	</div>
 </body> 
 </html>
