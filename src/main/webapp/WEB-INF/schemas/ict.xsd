@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="COP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Consulta">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Solicitante">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Persona">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Fisica">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="NIF"/>
+                                <xs:element type="xs:string" name="Nombre"/>
+                                <xs:element type="xs:string" name="Apellido1"/>
+                                <xs:element type="xs:string" name="Apellido2"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Direccion">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="TipoVia"/>
+                          <xs:element type="xs:string" name="NombreVia"/>
+                          <xs:element type="xs:byte" name="Numero"/>
+                          <xs:element type="xs:byte" name="INEProvincia"/>
+                          <xs:element type="xs:byte" name="INEMunicipio"/>
+                          <xs:element type="xs:string" name="Localidad"/>
+                          <xs:element type="xs:short" name="CP"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:int" name="Telefono"/>
+                    <xs:element type="xs:string" name="Email"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Descripcion">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="NombrePromotor"/>
+                    <xs:element type="xs:byte" name="NumeroViviendas"/>
+                    <xs:element type="xs:byte" name="NumeroOficinas"/>
+                    <xs:element type="xs:byte" name="NumeroLocales"/>
+                    <xs:element type="xs:byte" name="NumeroPlantas"/>
+                    <xs:element type="xs:byte" name="NumeroEscaleras"/>
+                    <xs:element type="xs:string" name="FechaInicio"/>
+                    <xs:element type="xs:string" name="FechaFin"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Situacion">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Direccion">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="TipoVia"/>
+                          <xs:element type="xs:string" name="NombreVia"/>
+                          <xs:element type="xs:byte" name="INEProvincia"/>
+                          <xs:element type="xs:byte" name="INEMunicipio"/>
+                          <xs:element type="xs:string" name="Localidad"/>
+                          <xs:element type="xs:short" name="CP"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Coordenadas">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:byte" name="Huso"/>
+                          <xs:element type="xs:int" name="X"/>
+                          <xs:element type="xs:int" name="Y"/>
+                          <xs:element name="Latitud">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:byte" name="Grados"/>
+                                <xs:element type="xs:string" name="Direccion"/>
+                                <xs:element type="xs:byte" name="Minutos"/>
+                                <xs:element type="xs:byte" name="Segundos"/>
+                                <xs:element type="xs:byte" name="Decimales"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Longitud">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:byte" name="Grados"/>
+                                <xs:element type="xs:string" name="Direccion"/>
+                                <xs:element type="xs:byte" name="Minutos"/>
+                                <xs:element type="xs:byte" name="Segundos"/>
+                                <xs:element type="xs:byte" name="Decimales"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="DocumentoUbicacion">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Nombre"/>
+                    <xs:element type="xs:string" name="Hash"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:byte" name="version"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
