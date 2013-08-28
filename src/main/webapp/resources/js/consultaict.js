@@ -30,25 +30,25 @@ function loadKML(){
 		return;
 	}
 	
-	if (value!=28 && value!=33 && value!=6){
-		$( "#dialog" ).dialog( "open" );
-		initMap();
-		return;
-	} 
+//	if (value!=28 && value!=33 && value!=6){
+//		$( "#dialog" ).dialog( "open" );
+//		initMap();
+//		return;
+//	} 
 		
 	var map = initMap();
 
 	var myParser = new geoXML3.parser({map: map, singleInfoWindow:true});
 	
-	var kmlUrl='';
+	var kmlUrl='resources/documents/test.kml';
 	
-	if (value ==28){
-		kmlUrl ='resources/documents/madrid.kml';	
-	} else if (value == 33){
-		kmlUrl='resources/documents/asturias.kml';
-	} else if (value == 06){
-		kmlUrl='resources/documents/badajoz.kml';
-	}
+//	if (value ==28){
+//		kmlUrl ='resources/documents/madrid.kml';	
+//	} else if (value == 33){
+//		kmlUrl='resources/documents/asturias.kml';
+//	} else if (value == 06){
+//		kmlUrl='resources/documents/badajoz.kml';
+//	}
 
 	myParser.parse(kmlUrl);
 }

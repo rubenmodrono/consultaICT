@@ -1,8 +1,8 @@
 package com.telefonica.ict.model;
 
-import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -20,7 +20,7 @@ public class Province {
 	private Integer provinceId;
 	private String name;
 	@OneToMany(mappedBy="province")
-	private List<ICT> provinceIcts = new ArrayList<ICT>();
+	private Set<ICT> provinceIcts = new HashSet<ICT>();
 	
 	public Integer getProvinceId() {
 		return provinceId;
@@ -34,12 +34,12 @@ public class Province {
 		this.name = name;
 	}
 	
-	/*package*/List<ICT> _getProvinceIcts() {
+	/*package*/Set<ICT> _getProvinceIcts() {
 		return provinceIcts;
 	}
 	
-	public List<ICT> getProvinceIcts(){
-		return Collections.unmodifiableList(provinceIcts);
+	public Set<ICT> getProvinceIcts(){
+		return Collections.unmodifiableSet(provinceIcts);
 	}
 	
 	public void addICT(ICT ict){

@@ -7,7 +7,7 @@
                 <!-- The fileinput-button span is used to style the file input field as button -->
                 <span class="btn btn-success fileinput-button">
                     <i class="icon-plus icon-white"></i>
-                    <span>Añadir archivos</span>
+                    <span>A&nacute;adir archivos</span>
                     <input type="file" name="files[]" multiple>
                 </span>
                 <button type="submit" class="btn btn-primary start">
@@ -123,15 +123,15 @@
 <!-- The jQuery UI widget factory, can be omitted if jQuery UI is already included -->
 <script src="resources/js/vendor/jquery.ui.widget.js"></script>
 <!-- The Templates plugin is included to render the upload/download listings -->
-<script src="http://blueimp.github.io/JavaScript-Templates/js/tmpl.min.js"></script>
+<script src="resources/js/tmpl.min.js"></script>
 <!-- The Load Image plugin is included for the preview images and image resizing functionality -->
-<script src="http://blueimp.github.io/JavaScript-Load-Image/js/load-image.min.js"></script>
+<script src="resources/js/load-image.min.js"></script>
 <!-- The Canvas to Blob plugin is included for image resizing functionality -->
-<script src="http://blueimp.github.io/JavaScript-Canvas-to-Blob/js/canvas-to-blob.min.js"></script>
+<script src="resources/js/canvas-to-blob.min.js"></script>
 <!-- Bootstrap JS is not required, but included for the responsive demo navigation -->
-<script src="http://blueimp.github.io/cdn/js/bootstrap.min.js"></script>
+<script src="resources/js/bootstrap.min.js"></script>
 <!-- blueimp Gallery script -->
-<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="resources/js/jquery.blueimp-gallery.min.js"></script>
 <!-- The Iframe Transport is required for browsers without support for XHR file uploads -->
 <script src="resources/js/jquery.iframe-transport.js"></script>
 <!-- The basic File Upload plugin -->

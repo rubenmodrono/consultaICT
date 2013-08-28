@@ -8,5 +8,6 @@ public interface ProvinceDao {
 
 	public List<Province> findAll();
 	public Province findById(Integer id);
-	public void persistProvince(Province province);
+	void persistProvince(Province province);
+	public void updateProvince(Province province);
 }

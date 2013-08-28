@@ -29,4 +29,8 @@ public class ProvinceServicesImpl implements ProvinceServices {
 		pDAO.persistProvince(province);
 	}
 
+	public void updateProvince(Province province) {
+		pDAO.updateProvince(province);
+	}
+
 }

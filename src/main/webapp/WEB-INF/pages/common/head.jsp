@@ -5,6 +5,22 @@
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 	
 	<link href="resources/css/consultaict.css" rel="stylesheet"  type="text/css" />
+	<!-- Bootstrap CSS Toolkit styles -->
+	<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+	<!-- Generic page styles -->
+	<link rel="stylesheet" href="resources/css/style.css">
+	<!-- Bootstrap styles for responsive website layout, supporting different screen sizes -->
+	<link rel="stylesheet" href="resources/css/bootstrap-responsive.min.css">
+	<!-- blueimp Gallery styles -->
+	<link rel="stylesheet" href="resources/css/blueimp-gallery.min.css">
+	<!-- CSS to style the file input field as button and adjust the Bootstrap progress bars -->
+	<link rel="stylesheet" href="resources/css/jquery.fileupload-ui.css">
+	<!-- CSS adjustments for browsers with JavaScript disabled -->
+	<noscript><link rel="stylesheet" href="resources/css/jquery.fileupload-ui-noscript.css"></noscript>
+	<!-- Bootstrap CSS fixes for IE6 -->
+	<!--[if lt IE 7]>
+	<link rel="stylesheet" href="resources/css/bootstrap-ie6.min.css">
+	<![endif]-->	
 
 	<script src="resources/js/consultaict.js"></script>
 
@@ -20,23 +36,6 @@
 	
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	
-	<!-- Bootstrap CSS Toolkit styles -->
-	<link rel="stylesheet" href="http://blueimp.github.io/cdn/css/bootstrap.min.css">
-	<!-- Generic page styles -->
-	<link rel="stylesheet" href="resources/css/style.css">
-	<!-- Bootstrap styles for responsive website layout, supporting different screen sizes -->
-	<link rel="stylesheet" href="http://blueimp.github.io/cdn/css/bootstrap-responsive.min.css">
-	<!-- Bootstrap CSS fixes for IE6 -->
-	<!--[if lt IE 7]>
-	<link rel="stylesheet" href="http://blueimp.github.io/cdn/css/bootstrap-ie6.min.css">
-	<![endif]-->
-	<!-- blueimp Gallery styles -->
-	<link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
-	<!-- CSS to style the file input field as button and adjust the Bootstrap progress bars -->
-	<link rel="stylesheet" href="resources/css/jquery.fileupload-ui.css">
-	<!-- CSS adjustments for browsers with JavaScript disabled -->
-	<noscript><link rel="stylesheet" href="resources/css/jquery.fileupload-ui-noscript.css"></noscript>
-		
 	
 	<script type="text/javascript">
 	$(function() {

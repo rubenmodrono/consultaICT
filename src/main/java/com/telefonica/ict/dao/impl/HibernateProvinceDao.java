@@ -39,5 +39,9 @@ public class HibernateProvinceDao implements ProvinceDao {
 		getCurrentSession().persist(province);
 		
 	}
+	
+	public void updateProvince(Province province) {
+		getCurrentSession().merge(province);
+	}
 
 }
