@@ -2,7 +2,6 @@ package com.telefonica.ict.controller;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ResourceBundle;
 
@@ -39,7 +38,6 @@ public class LinkController {
 	@Autowired
 	private ICTServices ictServices;
 	
-    @SuppressWarnings("unused")
 	private File archivo;
 
     private ResourceBundle rb=ResourceBundle.getBundle("application");
@@ -58,21 +56,29 @@ public class LinkController {
 		
 		Province pro = provinceServices.getById(new Integer(province));
 		try {
-			buildKML(request, pro);
+			if (pro.getProvinceIcts().size()>0){
+				buildKML(request, pro);
+				return "filled";
+			}
+			return "empty";
 		} catch (Exception e) {
-			e.printStackTrace();
+			return "error";
 		}
-		return "cucutras";
 	}
 
 	private void buildKML(HttpServletRequest request, Province pro) throws FileNotFoundException, IOException {
+		
 		ServletContext sc = request.getSession().getServletContext();
 		String FilePath = sc.getRealPath("/");
 		String outPath = FilePath + rb.getString("documents.store.path");
 		archivo = new File(outPath+"\\test.kml");
-		if(!archivo.exists()) {
-		    archivo.createNewFile();
-		} 
+		
+		if(archivo.exists()){ 
+		    archivo.delete();
+		}
+			
+		archivo.createNewFile();
+		
 		final Kml kml = KmlFactory.createKml();
 		
 		for (ICT ict:pro.getProvinceIcts()){
@@ -81,17 +87,27 @@ public class LinkController {
 			Placemark placemark = KmlFactory.createPlacemark();
 			placemark.setName(ict.getNombre());
 			placemark.setVisibility(true);
-			placemark.setOpen(false);
+			placemark.setOpen(true);
 			placemark.setDescription(ict.toString());
-			//placemark.setStyleUrl("styles.kml#jugh_style");
-
+			placemark.setStyleUrl("#msn_blu-circle10");
+			
 			// Create <Point> and set values.
 			Point point = KmlFactory.createPoint();
 			point.setExtrude(false);
-			point.setAltitudeMode(AltitudeMode.CLAMP_TO_GROUND);
+			point.setAltitudeMode(AltitudeMode.RELATIVE_TO_SEA_FLOOR);
+			//
+			placemark.createAndSetLookAt()
+			.withLongitude(-3.620148915977874)
+			.withLatitude(40.42052285685661)
+			.withAltitude(0)
+			.withHeading(-7.685290764635505e-009)
+			.withTilt(0)
+			.withRange(74313.36489001928)
+			.withAltitudeMode(AltitudeMode.RELATIVE_TO_SEA_FLOOR);
+			
 			// Add <coordinates>9.444652669565212,51.30473589438118,0<coordinates>.
-			point.getCoordinates().add(new Coordinate(ict.getLatitude()+","+ict.getLongitude()+","+ict.getAltitude()));
-
+			point.getCoordinates().add(new Coordinate(ict.getLongitude()+","+ict.getLatitude()+","+ict.getAltitude()));
+			
 			placemark.setGeometry(point);      // <-- point is registered at placemark ownership.
 			kml.setFeature(placemark);         // <-- placemark is registered at kml ownership.
 			

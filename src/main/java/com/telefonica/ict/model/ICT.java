@@ -10,12 +10,14 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import org.apache.commons.lang.WordUtils;
+
 import com.telefonica.ict.tools.COP;
-import com.telefonica.ict.tools.CoordinateConversion;
 import com.telefonica.ict.tools.COP.Consulta;
 import com.telefonica.ict.tools.COP.Consulta.Descripcion;
 import com.telefonica.ict.tools.COP.Consulta.Situacion.Coordenadas;
 import com.telefonica.ict.tools.COP.Consulta.Situacion.Direccion;
+import com.telefonica.ict.tools.CoordinateConversion;
 import com.telefonica.ict.tools.Utils;
 
 @Entity
@@ -70,9 +72,7 @@ public class ICT {
 		setCoordenadas(coord);
 		
 		this.altitude = "0";
-		
-		
-		
+
 		this.localidad = dir.getLocalidad();
 		this.codigoPostal = ((Short)dir.getCP()).toString();
 		while (codigoPostal.length()<5){
@@ -92,6 +92,7 @@ public class ICT {
 		//this.modiArqueta = ;
 		//this.servicio = servicio;
 		//this.province = province;
+		normalizeFields();
 	}
 
 
@@ -309,7 +310,11 @@ public class ICT {
 		this.province = province;
 	}
 
-
+	/**
+	 * Función encargada de parsear las coordenadas recibidas 
+	 * dependiendo del formato en el cual se recogen en el xml
+	 * @param coord clase Coordenadas importado del xml.
+	 */
 	private void setCoordenadas (Coordenadas coord) {
 		
 		if (coord.getLatitud() != null && coord.getLongitud()!= null){
@@ -329,9 +334,9 @@ public class ICT {
 			CoordinateConversion cc = new CoordinateConversion();
 			StringBuilder utm = new StringBuilder();
 			utm.append(coord.getHuso());
-			//Aquí lo hemos "trucado" ya que siempre nos encontraremos en el 
-			//hemisferio norte y de este modo reutilzamos la clase
-			//de conversión creada por IBM
+			//Aquí se ha metido hardcoded el hemisferio norte, ya que 
+			//de este modo se podra reutilzar la clase de conversión 
+			//creada por IBM
 			utm.append(" N ");
 			utm.append(coord.getX());
 			utm.append(" ");
@@ -342,7 +347,17 @@ public class ICT {
 		}
 	}
 	
-
+	/**
+	 * Método encargado de normalizar los campos recibidos 
+	 * como cadenas, para que sigan un formato coherente en 
+	 * todos los casos
+	 */
+	private void normalizeFields(){
+		localidad = WordUtils.capitalize(localidad.toLowerCase());
+		lugar = WordUtils.capitalize(lugar.toLowerCase());
+		promotora = promotora.toUpperCase();
+	}
+	
 
 	@Override
 	public int hashCode() {
@@ -397,23 +412,27 @@ public class ICT {
 		
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		
-		return "<![CDATA[<strong>Nombre:" + nombre + "</strong></ br>" +
-			   "<strong>Localidad:</strong>" + localidad + "</ br>" +
-			   "<strong>Código Postal:</strong>" + codigoPostal + "</ br>" +
-			   "<strong>Lugar:</strong>" + lugar + "</ br>" +
-			   "<strong>Promotora:</strong>" + promotora + "</ br>" +
-			   "<strong>Viviendas:</strong>" + viviendas + "</ br>" +
-			   "<strong>Oficinas:</strong>" + oficinas + "</ br>" +
-			   "<strong>Locales:</strong>" + locales + "</ br>" +
-			   "<strong>Plantas:</strong>" + plantas + "</ br>" +
-			   "<strong>Escaleras:</strong>" + escaleras + "</ br>" +
-			   "<strong>Fecha Prevista Inicio Obra:</strong>" + sdf.format(fechaIni) + "</ br>" +
-			   "<strong>Fecha Prevista Fin Obra:</strong>" + sdf.format(fechaFin) + "</ br>" +
-			   "<strong>Modificación Arqueta:</strong>" + booleanTransformer(modiArqueta) + "</ br>" +
-			   "<strong>Servicio:</strong>" + booleanTransformer(servicio)+ "</ br>]]>";
+		return "<strong>Localidad:</strong> " + localidad + "<br>" +
+			   "<strong>Código Postal:</strong> " + codigoPostal + "<br>" +
+			   "<strong>Lugar:</strong> " + lugar + "<br>" +
+			   "<strong>Promotora:</strong> " + promotora + "<br>" +
+			   "<strong>Viviendas:</strong> " + viviendas + "<br>" +
+			   "<strong>Oficinas:</strong> " + oficinas + "<br>" +
+			   "<strong>Locales:</strong> " + locales + "<br>" +
+			   "<strong>Plantas:</strong> " + plantas + "<br>" +
+			   "<strong>Escaleras:</strong> " + escaleras + "<br>" +
+			   "<strong>Fecha Prevista Inicio Obra:</strong> " + sdf.format(fechaIni) + "<br>" +
+			   "<strong>Fecha Prevista Fin Obra:</strong> " + sdf.format(fechaFin) + "<br>" +
+			   "<strong>Modificación Arqueta:</strong> " + booleanTransformer(modiArqueta) + "<br>" +
+			   "<strong>Servicio:</strong> " + booleanTransformer(servicio)+ "<br>";
 		
 	}
 	
+	/**
+	 * Transforma elemento Booleano recibido en una cadena "SI" ó "NO"
+	 * @param el elemento recibido
+	 * @return Cadena "SI/NO" en función del valor del elemento recibido
+	 */
 	private String booleanTransformer(Boolean el){
 		
 		return el!=null && el.booleanValue()?"SI":"NO";

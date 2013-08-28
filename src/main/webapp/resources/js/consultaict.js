@@ -20,35 +20,23 @@ function initMap(){
 
 function loadKML(){
 	
-	var value =  $('#combobox').val();
-	
-	$.getJSON("getProvince.do", { province: value}, function() {
-    });
-
-	if (value == 0){
-		initMap();
-		return;
-	}
-	
-//	if (value!=28 && value!=33 && value!=6){
-//		$( "#dialog" ).dialog( "open" );
-//		initMap();
-//		return;
-//	} 
-		
 	var map = initMap();
-
 	var myParser = new geoXML3.parser({map: map, singleInfoWindow:true});
-	
 	var kmlUrl='resources/documents/test.kml';
 	
-//	if (value ==28){
-//		kmlUrl ='resources/documents/madrid.kml';	
-//	} else if (value == 33){
-//		kmlUrl='resources/documents/asturias.kml';
-//	} else if (value == 06){
-//		kmlUrl='resources/documents/badajoz.kml';
-//	}
+	var value =  $('#combobox').val();
+	
+	if (value !=0){
+		//se hace una llamada sincrona 
+		//para que actualice el documento a leer.
+		$.ajax({
+			  type: "GET",
+			  dataType: "json",
+			  url: "getProvince.do",
+			  data: {province:value},
+			  async: false
+			});
+		myParser.parse(kmlUrl);
+	}
 
-	myParser.parse(kmlUrl);
 }
