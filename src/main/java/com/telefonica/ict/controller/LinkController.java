@@ -22,6 +22,7 @@ import com.telefonica.ict.model.ICT;
 import com.telefonica.ict.model.Province;
 import com.telefonica.ict.services.ICTServices;
 import com.telefonica.ict.services.ProvinceServices;
+import com.telefonica.ict.tools.Utils;
 
 import de.micromata.opengis.kml.v_2_2_0.AltitudeMode;
 import de.micromata.opengis.kml.v_2_2_0.Coordinate;
@@ -55,14 +56,18 @@ public class LinkController {
 	public @ResponseBody String getProvince(@RequestParam String province,HttpServletRequest request) {
 		
 		Province pro = provinceServices.getById(new Integer(province));
+		
+		if (pro.getProvinceIcts().size()<1) {
+			return Utils.WO_ICT;
+		}
+		
 		try {
-			if (pro.getProvinceIcts().size()>0){
-				buildKML(request, pro);
-				return "filled";
-			}
-			return "empty";
+			
+			buildKML(request, pro);
+			return Utils.W_ICT;
+			
 		} catch (Exception e) {
-			return "error";
+			return Utils.ERROR;
 		}
 	}
 
@@ -95,15 +100,15 @@ public class LinkController {
 			Point point = KmlFactory.createPoint();
 			point.setExtrude(false);
 			point.setAltitudeMode(AltitudeMode.RELATIVE_TO_SEA_FLOOR);
-			//
-			placemark.createAndSetLookAt()
-			.withLongitude(-3.620148915977874)
-			.withLatitude(40.42052285685661)
-			.withAltitude(0)
-			.withHeading(-7.685290764635505e-009)
-			.withTilt(0)
-			.withRange(74313.36489001928)
-			.withAltitudeMode(AltitudeMode.RELATIVE_TO_SEA_FLOOR);
+//			//
+//			placemark.createAndSetLookAt()
+//			.withLongitude(-3.620148915977874)
+//			.withLatitude(40.42052285685661)
+//			.withAltitude(0)
+//			.withHeading(-7.685290764635505e-009)
+//			.withTilt(0)
+//			.withRange(74313.36489001928)
+//			.withAltitudeMode(AltitudeMode.RELATIVE_TO_SEA_FLOOR);
 			
 			// Add <coordinates>9.444652669565212,51.30473589438118,0<coordinates>.
 			point.getCoordinates().add(new Coordinate(ict.getLongitude()+","+ict.getLatitude()+","+ict.getAltitude()));

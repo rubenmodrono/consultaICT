@@ -4,6 +4,13 @@ package com.telefonica.ict.tools;
 public class Utils {
 
 	/**
+	 * Constantes
+	 */
+	public static String WO_ICT = "none";
+	public static String W_ICT = "ict";
+	public static String ERROR = "error";
+	
+	/**
 	 * Clase que recibe el nombre del archivo xml para
 	 * @param archiveName
 	 * @return

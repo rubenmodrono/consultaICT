@@ -29,14 +29,20 @@ function loadKML(){
 	if (value !=0){
 		//se hace una llamada sincrona 
 		//para que actualice el documento a leer.
-		$.ajax({
+		var result = $.ajax({
 			  type: "GET",
 			  dataType: "json",
 			  url: "getProvince.do",
 			  data: {province:value},
-			  async: false
+			  async: false,
+			  success: function(string){
+				  return string;
+			  }
 			});
-		myParser.parse(kmlUrl);
+		
+		if (result.responseText=="ict"){
+			myParser.parse(kmlUrl);
+		}
 	}
 
 }
