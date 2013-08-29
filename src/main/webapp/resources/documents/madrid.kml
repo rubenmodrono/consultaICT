@@ -287,19 +287,19 @@
 		<open>1</open>
 		<Placemark>
 			<description>
-Nombre: COP-13001111<br />
-Localidad: VALDEMORO<br />
-CP: 28340<br />
-Lugar: PARCELA UDE OESTE-NORTE URBANA S.G.E. AV. DE ESPAÑA, 0<br />
-Promotora: OPON SPORT LIFE CENTER, S. L.<br />
-Viviendas: 0<br />
-Oficinas: 0<br />
-Locales: 4<br />
-Plantas:1<br />
-Escaleras:0<br />
-Fecha Prevista Inicio Obra: 01/03/2013<br />
-Fecha Prevista Fin Obra: 25/03/2013<br />
-Modificación Arqueta: NO<br />
+Nombre: COP-13001111#
+Localidad: VALDEMORO#
+CP: 28340#
+Lugar: PARCELA UDE OESTE-NORTE URBANA S.G.E. AV. DE ESPAÑA, 0#
+Promotora: OPON SPORT LIFE CENTER, S. L.#
+Viviendas: 0#
+Oficinas: 0#
+Locales: 4#
+Plantas:1#
+Escaleras:0#
+Fecha Prevista Inicio Obra: 01/03/2013#
+Fecha Prevista Fin Obra: 25/03/2013#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -307,19 +307,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001042<br />
-Localidad: ALCOBENDAS<br />
-CP: 28100<br />
-Lugar: CALLE VALENCIA, 78<br />
-Promotora: URZAIZ VIGO S.L<br />
-Viviendas: 2<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas:0<br />
-Escaleras:0<br />
-Fecha Prevista Inicio Obra: 12/03/2013<br />
-Fecha Prevista Fin Obra: 14/05/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001042#
+Localidad: ALCOBENDAS#
+CP: 28100#
+Lugar: CALLE VALENCIA, 78#
+Promotora: URZAIZ VIGO S.L#
+Viviendas: 2#
+Oficinas: 0#
+Locales: 0#
+Plantas:0#
+Escaleras:0#
+Fecha Prevista Inicio Obra: 12/03/2013#
+Fecha Prevista Fin Obra: 14/05/2013#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<gx:balloonVisibility>1</gx:balloonVisibility>
@@ -328,19 +328,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001122<br />
-Localidad: MADRID<br />
-CP: 28050<br />
-Lugar: Parcela c1a-03 del pau las tablas<br />
-Promotora: CONSTRUCCIONES AMENABAR, S.A<br />
-Viviendas: 48<br />
-Oficinas: 0<br />
-Locales: 2<br />
-Plantas:10<br />
-Escaleras:2<br />
-Fecha Prevista Inicio Obra: 01/05/2013<br />
-Fecha Prevista Fin Obra: 01/12/2014<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-13001122#
+Localidad: MADRID#
+CP: 28050#
+Lugar: Parcela c1a-03 del pau las tablas#
+Promotora: CONSTRUCCIONES AMENABAR, S.A#
+Viviendas: 48#
+Oficinas: 0#
+Locales: 2#
+Plantas:10#
+Escaleras:2#
+Fecha Prevista Inicio Obra: 01/05/2013#
+Fecha Prevista Fin Obra: 01/12/2014#
+Modificación Arqueta: SI#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -348,18 +348,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001139<br />
-Localidad: VALDEMORO<br />
-Lugar: N/E parcela rc.ii-5<br /> plan parcial sector ude oestenorte, 0
-Promotora:IVIMA (INSTITUTO DE LA VIVIENDA DE MADRID)<br />
-Viviendas: 240<br />
-Oficinas: 50<br />
-Locales:50<br />
-Plantas:6<br />
-Escaleras:4<br />
-Fecha Prevista Inicio Obra: 01/03/2013<br />
-Fecha Prevista Fin Obra: 30/04/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001139#
+Localidad: VALDEMORO#
+CP:28XXX#
+Lugar: N/E parcela rc.ii-5, plan parcial sector ude oestenorte, 0#
+Promotora:IVIMA (INSTITUTO DE LA VIVIENDA DE MADRID)#
+Viviendas: 240#
+Oficinas: 50#
+Locales:50#
+Plantas:6#
+Escaleras:4#
+Fecha Prevista Inicio Obra: 01/03/2013#
+Fecha Prevista Fin Obra: 30/04/2013#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -367,19 +368,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001043<br />
-Localidad: MADRID<br />
-CP: 28033<br />
-Lugar: C/  Mar de Aral, 15<br />
-Promotora: COMUNIDAD DE PROPIETA<br />RIOS
-Viviendas: 32<br />
-Oficinas: 0<br />
-Locales:0<br />
-Plantas:7<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 04/02/2013<br />
-Fecha Prevista Fin Obra: 03/06/2013<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-13001043#
+Localidad: MADRID#
+CP: 28033#
+Lugar: C/  Mar de Aral, 15#
+Promotora: COMUNIDAD DE PROPIETARIOS#
+Viviendas: 32#
+Oficinas: 0#
+Locales:0#
+Plantas:7#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 04/02/2013#
+Fecha Prevista Fin Obra: 03/06/2013#
+Modificación Arqueta: SI#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -387,19 +388,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001046<br />
-Localidad: TRES CANTOS<br />
-CP: 28770<br />
-Lugar: C/  Francos Rodriguez, 15<br />
-Promotora: BESCAREV. SOCIEDAD COOPERAT<br />IVA MADRILEÑA
-Viviendas: 38<br />
-Oficinas: 0<br />
-Locales:0<br />
-Plantas:9<br />
-Escaleras:2<br />
-Fecha Prevista Inicio Obra: 10/01/2013<br />
-Fecha Prevista Fin Obra: 14/02/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001046#
+Localidad: TRES CANTOS#
+CP: 28770#
+Lugar: C/  Francos Rodriguez, 15#
+Promotora: BESCAREV. SOCIEDAD COOPERATIVA MADRILEÑA#
+Viviendas: 38#
+Oficinas: 0#
+Locales:0#
+Plantas:9#
+Escaleras:2#
+Fecha Prevista Inicio Obra: 10/01/2013#
+Fecha Prevista Fin Obra: 14/02/2013#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -407,19 +408,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001107<br />
-Localidad: GETAFE<br />
-CP: 28902<br />
-Lugar: C/  Méndez Nuñez, 3<br />
-Promotora: BEATRIZ GARCÍA UTIEL<br />
-Viviendas: 3<br />
-Oficinas: 0<br />
-Locales:0<br />
-Plantas:6<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 01/02/2013<br />
-Fecha Prevista Fin Obra: 30/10/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001107#
+Localidad: GETAFE#
+CP: 28902#
+Lugar: C/  Méndez Nuñez, 3#
+Promotora: BEATRIZ GARCÍA UTIEL#
+Viviendas: 3#
+Oficinas: 0#
+Locales:0#
+Plantas:6#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 01/02/2013#
+Fecha Prevista Fin Obra: 30/10/2013#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -427,19 +428,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001085<br />
-Localidad: FUENLABRADA<br />
-CP: 28947<br />
-Lugar: C/  Bembibre, 16<br />
-Promotora: ESIN TRES, S.L.<br />
-Viviendas: 0<br />
-Oficinas: 0<br />
-Locales:17<br />
-Plantas:1<br />
-Escaleras:0<br />
-Fecha Prevista Inicio Obra: 23/01/2013<br />
-Fecha Prevista Fin Obra: 30/05/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001085#
+Localidad: FUENLABRADA#
+CP: 28947#
+Lugar: C/  Bembibre, 16#
+Promotora: ESIN TRES, S.L.#
+Viviendas: 0#
+Oficinas: 0#
+Locales:17#
+Plantas:1#
+Escaleras:0#
+Fecha Prevista Inicio Obra: 23/01/2013#
+Fecha Prevista Fin Obra: 30/05/2013#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -447,19 +448,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001159<br />
-Localidad: MADRID<br />
-CP: 28041<br />
-Lugar: C/  Gonzalez Feito, 7<br />
-Promotora: PROYECTOS, ACTUACIONES,<br /> CONSTRUCCIONES Y OBRAS S.L.
-Viviendas: 18<br />
-Oficinas: 0<br />
-Locales:0<br />
-Plantas:5<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 20/02/2013<br />
-Fecha Prevista Fin Obra: 30/09/2014<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-13001159#
+Localidad: MADRID#
+CP: 28041#
+Lugar: C/  Gonzalez Feito, 7#
+Promotora: PROYECTOS, ACTUACIONES, CONSTRUCCIONES Y OBRAS S.L.#
+Viviendas: 18#
+Oficinas: 0#
+Locales:0#
+Plantas:5#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 20/02/2013#
+Fecha Prevista Fin Obra: 30/09/2014#
+Modificación Arqueta: SI#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -467,19 +468,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001168<br />
-Localidad: MADRID<br />
-CP: 28028<br />
-Lugar: C/  Martinez Izquierdo, 4<br />
-Promotora: LUANTE PROMOCIONES DIVERSAS<br />, S.L
-Viviendas: 19<br />
-Oficinas: 0<br />
-Locales:1<br />
-Plantas:10<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 01/04/2013<br />
-Fecha Prevista Fin Obra: 31/10/2014<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-13001168#
+Localidad: MADRID#
+CP: 28028#
+Lugar: C/  Martinez Izquierdo, 4#
+Promotora: LUANTE PROMOCIONES DIVERSAS, S.L#
+Viviendas: 19#
+Oficinas: 0#
+Locales:1#
+Plantas:10#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 01/04/2013#
+Fecha Prevista Fin Obra: 31/10/2014#
+Modificación Arqueta: SI#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -487,19 +488,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001186<br />
-Localidad: MADRID<br />
-CP: 28047<br />
-Lugar: C/  Francisco Armada, 22<br />
-Promotora: PROYECTOS, ACTUACIONES, CO<br />NSTRUCCIONES Y OBRAS S.L.
-Viviendas: 22<br />
-Oficinas: 0<br />
-Locales:0<br />
-Plantas:4<br />
-Escaleras:3<br />
-Fecha Prevista Inicio Obra: 01/03/2013<br />
-Fecha Prevista Fin Obra: 30/11/2014<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001186#
+Localidad: MADRID#
+CP: 28047#
+Lugar: C/  Francisco Armada, 22#
+Promotora: PROYECTOS, ACTUACIONES, CONSTRUCCIONES Y OBRAS S.L.#
+Viviendas: 22#
+Oficinas: 0#
+Locales:0#
+Plantas:4#
+Escaleras:3#
+Fecha Prevista Inicio Obra: 01/03/2013#
+Fecha Prevista Fin Obra: 30/11/2014#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -507,19 +508,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001187<br />
-Localidad: ALCORCÓN<br />
-CP: 28922<br />
-Lugar:  Parcela 25.1, Ensanche SUR RESIDENCIAL ENTREMARES<br />
-Promotora: RESIDENCIAL ENTREMARES 2009 SOCIEDAD COOPERATIVA 	<br />MADRILEÑA DE VIVIENDAS
-Viviendas: 56<br />
-Oficinas: 0<br />
-Locales:0<br />
-Plantas:3<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 01/03/2013<br />
-Fecha Prevista Fin Obra: 06/06/2014<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001187#
+Localidad: ALCORCÓN#
+CP: 28922#
+Lugar:  Parcela 25.1, Ensanche SUR RESIDENCIAL ENTREMARES#
+Promotora: RESIDENCIAL ENTREMARES 2009 SOCIEDAD COOPERATIVA MADRILEÑA DE VIVIENDAS#
+Viviendas: 56#
+Oficinas: 0#
+Locales:0#
+Plantas:3#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 01/03/2013#
+Fecha Prevista Fin Obra: 06/06/2014#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -527,19 +528,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001201<br />
-Localidad: MAJADAHONDA<br />
-CP: 28222<br />
-Lugar:  Manzana RUH-6 del P.P. “Roza Martín&quot;<br />
-Promotora: AFAR 4, S.L<br />
-Viviendas: 24<br />
-Oficinas: 0<br />
-Locales:0<br />
-Plantas:2<br />
-Escaleras:0<br />
-Fecha Prevista Inicio Obra: 01/03/2013<br />
-Fecha Prevista Fin Obra: 15/09/2014<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001201#
+Localidad: MAJADAHONDA#
+CP: 28222#
+Lugar:  Manzana RUH-6 del P.P. “Roza Martín&quot;#
+Promotora: AFAR 4, S.L#
+Viviendas: 24#
+Oficinas: 0#
+Locales:0#
+Plantas:2#
+Escaleras:0#
+Fecha Prevista Inicio Obra: 01/03/2013#
+Fecha Prevista Fin Obra: 15/09/2014#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -547,19 +548,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001179<br />
-Localidad: MADRID<br />
-CP: 28004<br />
-Lugar:  C/ Silva, 15<br />
-Promotora: SILVA CAPITAL, <br />S.L
-Viviendas: 7<br />
-Oficinas: 0<br />
-Locales: 2<br />
-Plantas: 5<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 26/02/2013<br />
-Fecha Prevista Fin Obra: 18/12/2013<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-13001179#
+Localidad: MADRID#
+CP: 28004#
+Lugar:  C/ Silva, 15#
+Promotora: SILVA CAPITAL, S.L#
+Viviendas: 7#
+Oficinas: 0#
+Locales: 2#
+Plantas: 5#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 26/02/2013#
+Fecha Prevista Fin Obra: 18/12/2013#
+Modificación Arqueta: SI#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -567,19 +568,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001089<br />
-Localidad: POZUELO DE ALARCÓN<br />
-CP: 28223<br />
-Lugar:  C/ Doctor Raso<br />
-Promotora: CALEDONIAN INMOBILIARIA S.L.U.<br />
-Viviendas: 21<br />
-Oficinas: 0<br />
-Locales:0<br />
-Plantas:3<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 07/02/2013<br />
-Fecha Prevista Fin Obra: 24/01/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001089#
+Localidad: POZUELO DE ALARCÓN#
+CP: 28223#
+Lugar:  C/ Doctor Raso#
+Promotora: CALEDONIAN INMOBILIARIA S.L.U.#
+Viviendas: 21#
+Oficinas: 0#
+Locales:0#
+Plantas:3#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 07/02/2013#
+Fecha Prevista Fin Obra: 24/01/2013#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -587,19 +588,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001082<br />
-Localidad: SAN SEBASTIAN DE LOS REYES<br />
-CP: 28701<br />
-Lugar:  Parcela C3-2 del Plan Parcial AR1 Tempranales<br />
-Promotora: GRUPO INMOBILIARIO FERROCARRIL S.A.<br />
-Viviendas: 112<br />
-Oficinas: 0<br />
-Locales:0<br />
-Plantas:5<br />
-Escaleras:14<br />
-Fecha Prevista Inicio Obra: 26/02/2013<br />
-Fecha Prevista Fin Obra: 30/06/2014<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001082#
+Localidad: SAN SEBASTIAN DE LOS REYES#
+CP: 28701#
+Lugar:  Parcela C3-2 del Plan Parcial AR1 Tempranales#
+Promotora: GRUPO INMOBILIARIO FERROCARRIL S.A.#
+Viviendas: 112#
+Oficinas: 0#
+Locales:0#
+Plantas:5#
+Escaleras:14#
+Fecha Prevista Inicio Obra: 26/02/2013#
+Fecha Prevista Fin Obra: 30/06/2014#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -607,19 +608,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001211<br />
-Localidad: MADRID<br />
-CP: 28027<br />
-Lugar: C/ Doctor Zamenhof, 38<br />
-Promotora: ECC VIVIENDAS S.A<br />
-Viviendas: 26<br />
-Oficinas: 0<br />
-Locales:0<br />
-Plantas:5<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 05/03/2013<br />
-Fecha Prevista Fin Obra: 12/05/2015<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-13001211#
+Localidad: MADRID#
+CP: 28027#
+Lugar: C/ Doctor Zamenhof, 38#
+Promotora: ECC VIVIENDAS S.A#
+Viviendas: 26#
+Oficinas: 0#
+Locales:0#
+Plantas:5#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 05/03/2013#
+Fecha Prevista Fin Obra: 12/05/2015#
+Modificación Arqueta: SI#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -627,19 +628,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001213<br />
-Localidad: AJALVIR<br />
-CP: 28864<br />
-Lugar: C/ Real, 23<br />
-Promotora: MARÍA GONZÁLEZ GARCÍA<br />
-Viviendas: 5<br />
-Oficinas: 0<br />
-Locales:0<br />
-Plantas:4<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 05/03/2013<br />
-Fecha Prevista Fin Obra: 24/01/2014<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001213#
+Localidad: AJALVIR#
+CP: 28864#
+Lugar: C/ Real, 23#
+Promotora: MARÍA GONZÁLEZ GARCÍA#
+Viviendas: 5#
+Oficinas: 0#
+Locales:0#
+Plantas:4#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 05/03/2013#
+Fecha Prevista Fin Obra: 24/01/2014#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -647,19 +648,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001214<br />
-Localidad: MADRID<br />
-CP: 28034<br />
-Lugar: C/ Anastasia López, 11<br />
-Promotora: MARÍA CONCEPCIÓN CRESPO NÚÑEZ<br />
-Viviendas: 2<br />
-Oficinas: 0<br />
-Locales:0<br />
-Plantas:4<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 13/03/2013<br />
-Fecha Prevista Fin Obra: 20/06/2014<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001214#
+Localidad: MADRID#
+CP: 28034#
+Lugar: C/ Anastasia López, 11#
+Promotora: MARÍA CONCEPCIÓN CRESPO NÚÑEZ#
+Viviendas: 2#
+Oficinas: 0#
+Locales:0#
+Plantas:4#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 13/03/2013#
+Fecha Prevista Fin Obra: 20/06/2014#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -667,19 +668,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001216<br />
-Localidad: MADRID<br />
-CP: 28020<br />
-Lugar: Parcela 172-D Valdebebas<br />
-Promotora: PLANIFICACIÓN RESIDENCIAL Y GESTIÓN S.A<br />
-Viviendas: 60<br />
-Oficinas: 0<br />
-Locales:0<br />
-Plantas:11<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 15/03/2013<br />
-Fecha Prevista Fin Obra: 20/02/2015<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001216#
+Localidad: MADRID#
+CP: 28020#
+Lugar: Parcela 172-D Valdebebas#
+Promotora: PLANIFICACIÓN RESIDENCIAL Y GESTIÓN S.A#
+Viviendas: 60#
+Oficinas: 0#
+Locales:0#
+Plantas:11#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 15/03/2013#
+Fecha Prevista Fin Obra: 20/02/2015#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -687,19 +688,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001217<br />
-Localidad: GETAFE<br />
-CP: 28905<br />
-Lugar: Sector PP-03, “Buenavista”<br />
-Promotora: INMOBILIARIA Y VIVIENDAS FERROCARRIL S.L.U.<br />
-Viviendas: 155<br />
-Oficinas: 0<br />
-Locales:0<br />
-Plantas:5<br />
-Escaleras:6<br />
-Fecha Prevista Inicio Obra: 15/03/2013<br />
-Fecha Prevista Fin Obra: 25/09/2015<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001217#
+Localidad: GETAFE#
+CP: 28905#
+Lugar: Sector PP-03, “Buenavista”#
+Promotora: INMOBILIARIA Y VIVIENDAS FERROCARRIL S.L.U.#
+Viviendas: 155#
+Oficinas: 0#
+Locales:0#
+Plantas:5#
+Escaleras:6#
+Fecha Prevista Inicio Obra: 15/03/2013#
+Fecha Prevista Fin Obra: 25/09/2015#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -707,19 +708,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001219<br />
-Localidad: MADRID<br />
-CP: 28055<br />
-Lugar: PARCELA 133-C DEL PARQUE DE VALDEBEBAS, 0<br />
-Promotora: EMPRESA MUNICIPAL DE LA VIVIENDA Y SUELO<br />
-Viviendas: 71<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 8 <br />
-Escaleras:2<br />
-Fecha Prevista Inicio Obra: 30/05/2013<br />
-Fecha Prevista Fin Obra: 12/03/2015<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001219#
+Localidad: MADRID#
+CP: 28055#
+Lugar: PARCELA 133-C DEL PARQUE DE VALDEBEBAS, 0#
+Promotora: EMPRESA MUNICIPAL DE LA VIVIENDA Y SUELO#
+Viviendas: 71#
+Oficinas: 0#
+Locales: 0#
+Plantas: 8 #
+Escaleras:2#
+Fecha Prevista Inicio Obra: 30/05/2013#
+Fecha Prevista Fin Obra: 12/03/2015#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -727,19 +728,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001259<br />
-Localidad: COLMENAR VIEJO<br />
-CP: 28770<br />
-Lugar: Parcela RC-11.2 del Sector I<br />
-Promotora: PRYCONSA, S.A<br />
-Viviendas: 38<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 6 <br />
-Escaleras:2<br />
-Fecha Prevista Inicio Obra: 15/03/2013<br />
-Fecha Prevista Fin Obra: 30/04/2014<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001259#
+Localidad: COLMENAR VIEJO#
+CP: 28770#
+Lugar: Parcela RC-11.2 del Sector I#
+Promotora: PRYCONSA, S.A#
+Viviendas: 38#
+Oficinas: 0#
+Locales: 0#
+Plantas: 6 #
+Escaleras:2#
+Fecha Prevista Inicio Obra: 15/03/2013#
+Fecha Prevista Fin Obra: 30/04/2014#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -747,19 +748,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001271<br />
-Localidad: MADRID<br />
-CP: 28003<br />
-Lugar: Paseo Francisco de Sales, 15<br />
-Promotora: TABEIROS GESTION GLOBAL DE INMUEBLES S.L<br />
-Viviendas: 175<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas:12 <br />
-Escaleras:3<br />
-Fecha Prevista Inicio Obra: 22/03/2013<br />
-Fecha Prevista Fin Obra: 30/09/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001271#
+Localidad: MADRID#
+CP: 28003#
+Lugar: Paseo Francisco de Sales, 15#
+Promotora: TABEIROS GESTION GLOBAL DE INMUEBLES S.L#
+Viviendas: 175#
+Oficinas: 0#
+Locales: 0#
+Plantas:12 #
+Escaleras:3#
+Fecha Prevista Inicio Obra: 22/03/2013#
+Fecha Prevista Fin Obra: 30/09/2013#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -767,19 +768,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001276<br />
-Localidad: MADRID<br />
-CP: 28050<br />
-Lugar: Parque de Valdebebas, Sector US.0401 Parcela RES.03 – P13<br />
-Promotora: VIRIMA, SOCIEDAD COOPERATIVA MADRILEÑA<br />
-Viviendas: 63<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas:13<br />
-Escaleras:2<br />
-Fecha Prevista Inicio Obra: 15/04/2013<br />
-Fecha Prevista Fin Obra: 30/09/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001276#
+Localidad: MADRID#
+CP: 28050#
+Lugar: Parque de Valdebebas, Sector US.0401 Parcela RES.03 – P13#
+Promotora: VIRIMA, SOCIEDAD COOPERATIVA MADRILEÑA#
+Viviendas: 63#
+Oficinas: 0#
+Locales: 0#
+Plantas:13#
+Escaleras:2#
+Fecha Prevista Inicio Obra: 15/04/2013#
+Fecha Prevista Fin Obra: 30/09/2013#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -787,19 +788,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001278<br />
-Localidad: FUENLABRADA<br />
-CP: 28942<br />
-Lugar: c/ del MAestro, 22<br />
-Promotora: GADEPRA S.L<br />
-Viviendas: 12<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas:6<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 28/03/2013<br />
-Fecha Prevista Fin Obra: 23/04/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001278#
+Localidad: FUENLABRADA#
+CP: 28942#
+Lugar: c/ del MAestro, 22#
+Promotora: GADEPRA S.L#
+Viviendas: 12#
+Oficinas: 0#
+Locales: 0#
+Plantas:6#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 28/03/2013#
+Fecha Prevista Fin Obra: 23/04/2013#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -807,19 +808,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001314<br />
-Localidad: MADRID<br />
-CP: 28050<br />
-Lugar:  Parcela 139 a Ciudad Aeroportuaria<br />
-Promotora: C. P. PROMOTORA, S.L<br />
-Viviendas: 30<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas:5<br />
-Escaleras:4<br />
-Fecha Prevista Inicio Obra: 16/04/2013<br />
-Fecha Prevista Fin Obra: 20/02/2043<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-13001314#
+Localidad: MADRID#
+CP: 28050#
+Lugar:  Parcela 139 a Ciudad Aeroportuaria#
+Promotora: C. P. PROMOTORA, S.L#
+Viviendas: 30#
+Oficinas: 0#
+Locales: 0#
+Plantas:5#
+Escaleras:4#
+Fecha Prevista Inicio Obra: 16/04/2013#
+Fecha Prevista Fin Obra: 20/02/2043#
+Modificación Arqueta: SI#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -827,19 +828,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001327<br />
-Localidad: MADRID<br />
-CP: 28012<br />
-Lugar:  C/ Mesón de Paredes, 15<br />
-Promotora: INGRAP, S.L<br />
-Viviendas: 16<br />
-Oficinas: 0<br />
-Locales: 2<br />
-Plantas:5<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 01/09/2013<br />
-Fecha Prevista Fin Obra: 01/11/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001327#
+Localidad: MADRID#
+CP: 28012#
+Lugar:  C/ Mesón de Paredes, 15#
+Promotora: INGRAP, S.L#
+Viviendas: 16#
+Oficinas: 0#
+Locales: 2#
+Plantas:5#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 01/09/2013#
+Fecha Prevista Fin Obra: 01/11/2013#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -847,19 +848,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001330<br />
-Localidad: MAJADAHONDA<br />
-CP: 30520<br />
-Lugar:  C/ San Lucas, 6<br />
-Promotora: MONTE VIÑA GRANDE S.L.<br />
-Viviendas: 6<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas:3<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 02/09/2013<br />
-Fecha Prevista Fin Obra: 30/09/2013<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-13001330#
+Localidad: MAJADAHONDA#
+CP: 30520#
+Lugar:  C/ San Lucas, 6#
+Promotora: MONTE VIÑA GRANDE S.L.#
+Viviendas: 6#
+Oficinas: 0#
+Locales: 0#
+Plantas:3#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 02/09/2013#
+Fecha Prevista Fin Obra: 30/09/2013#
+Modificación Arqueta: SI#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -867,19 +868,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001345<br />
-Localidad: FUENLABRADA<br />
-CP: 28942<br />
-Lugar:  C/ Claveles S/N PARCELA 9.4 SECTOR PP II-2 EL VIVERO<br />
-Promotora: GADEPRA S.L.<br />
-Viviendas: 18<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas:7<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 30/04/2013<br />
-Fecha Prevista Fin Obra: 03/03/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001345#
+Localidad: FUENLABRADA#
+CP: 28942#
+Lugar:  C/ Claveles S/N PARCELA 9.4 SECTOR PP II-2 EL VIVERO#
+Promotora: GADEPRA S.L.#
+Viviendas: 18#
+Oficinas: 0#
+Locales: 0#
+Plantas:7#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 30/04/2013#
+Fecha Prevista Fin Obra: 03/03/2013#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -887,19 +888,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001346<br />
-Localidad: FUENLABRADA<br />
-CP: 28942<br />
-Lugar:  AVDA DE LA UNIVERSIDAD Nº 38-56<br />
-Promotora: GADEPRA S.L.<br />
-Viviendas: 10<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas:3<br />
-Escaleras:10<br />
-Fecha Prevista Inicio Obra: 30/04/2013<br />
-Fecha Prevista Fin Obra: 30/12/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001346#
+Localidad: FUENLABRADA#
+CP: 28942#
+Lugar:  AVDA DE LA UNIVERSIDAD Nº 38-56#
+Promotora: GADEPRA S.L.#
+Viviendas: 10#
+Oficinas: 0#
+Locales: 0#
+Plantas:3#
+Escaleras:10#
+Fecha Prevista Inicio Obra: 30/04/2013#
+Fecha Prevista Fin Obra: 30/12/2013#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -907,19 +908,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001355<br />
-Localidad: ALALPARDO<br />
-CP: 28130<br />
-Lugar:  C/ MARQUES DE AUÑON c/v GASPAR DE PINEDO<br />
-Promotora: COMPAÑÍA DE GESTIÓN DE SERVICIOS S.L<br />
-Viviendas: 15<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas:3<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 15/05/2013<br />
-Fecha Prevista Fin Obra: 20/06/2014<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-13001355#
+Localidad: ALALPARDO#
+CP: 28130#
+Lugar:  C/ MARQUES DE AUÑON c/v GASPAR DE PINEDO#
+Promotora: COMPAÑÍA DE GESTIÓN DE SERVICIOS S.L#
+Viviendas: 15#
+Oficinas: 0#
+Locales: 0#
+Plantas:3#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 15/05/2013#
+Fecha Prevista Fin Obra: 20/06/2014#
+Modificación Arqueta: SI#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -927,19 +928,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001362<br />
-Localidad: MADRID<br />
-CP: 28002<br />
-Lugar:  C/ Principe de Vergara, 120<br />
-Promotora: URBANIZADORA, CONSTRUCTORA LEVANTINA, S.A. (URCOLESA)<br />
-Viviendas: 40<br />
-Oficinas: 0<br />
-Locales: 2<br />
-Plantas:10<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 09/05/2013<br />
-Fecha Prevista Fin Obra: 31/01/2014<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-13001362#
+Localidad: MADRID#
+CP: 28002#
+Lugar:  C/ Principe de Vergara, 120#
+Promotora: URBANIZADORA, CONSTRUCTORA LEVANTINA, S.A. (URCOLESA)#
+Viviendas: 40#
+Oficinas: 0#
+Locales: 2#
+Plantas:10#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 09/05/2013#
+Fecha Prevista Fin Obra: 31/01/2014#
+Modificación Arqueta: SI#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -947,19 +948,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001417<br />
-Localidad: MADRID<br />
-CP: 28005<br />
-Lugar:  C/ Maldonadas 9-11<br />
-Promotora: MELON, S.A.<br />
-Viviendas: 30<br />
-Oficinas: 2<br />
-Locales: 8<br />
-Plantas:8<br />
-Escaleras:2<br />
-Fecha Prevista Inicio Obra: 02/09/2013<br />
-Fecha Prevista Fin Obra: 15/01/2014<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-13001417#
+Localidad: MADRID#
+CP: 28005#
+Lugar:  C/ Maldonadas 9-11#
+Promotora: MELON, S.A.#
+Viviendas: 30#
+Oficinas: 2#
+Locales: 8#
+Plantas:8#
+Escaleras:2#
+Fecha Prevista Inicio Obra: 02/09/2013#
+Fecha Prevista Fin Obra: 15/01/2014#
+Modificación Arqueta: SI#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -967,19 +968,19 @@ Servicio: SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001425<br />
-Localidad: ALCALÁ DE HENARES<br />
-CP: 28801<br />
-Lugar:  C/ Santiago, 42<br />
-Promotora:JOAQUIN BRU DE ARAGON Y OTROS CB<br />
-Viviendas: 5<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas:3<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 02/09/2013<br />
-Fecha Prevista Fin Obra: 31/07/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001425#
+Localidad: ALCALÁ DE HENARES#
+CP: 28801#
+Lugar:  C/ Santiago, 42#
+Promotora:JOAQUIN BRU DE ARAGON Y OTROS CB#
+Viviendas: 5#
+Oficinas: 0#
+Locales: 0#
+Plantas:3#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 02/09/2013#
+Fecha Prevista Fin Obra: 31/07/2013#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -987,19 +988,19 @@ Servicio:SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-13001429<br />
-Localidad: MADRID<br />
-CP: 28049<br />
-Lugar:  C/ monasterio de sobrado, 13<br />
-Promotora:COMUNIDADES GESTIONADAS, S.A<br />
-Viviendas: 73<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 8<br />
-Escaleras:8<br />
-Fecha Prevista Inicio Obra: 01/10/2013<br />
-Fecha Prevista Fin Obra: 30/03/2015<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001429#
+Localidad: MADRID#
+CP: 28049#
+Lugar:  C/ monasterio de sobrado, 13#
+Promotora:COMUNIDADES GESTIONADAS, S.A#
+Viviendas: 73#
+Oficinas: 0#
+Locales: 0#
+Plantas: 8#
+Escaleras:8#
+Fecha Prevista Inicio Obra: 01/10/2013#
+Fecha Prevista Fin Obra: 30/03/2015#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<styleUrl>#msn_blu-circle1000</styleUrl>
 			<Point>
@@ -1008,19 +1009,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000187<br />
-Localidad: Santorcaz<br />
-Código Postal: 28818<br />
-Lugar: C/ del Agua, 6<br />
-Promotora: NIEVES BRIHUEGA ALBARES<br />
-Viviendas: 2<br />
-Oficinas: 0<br />
-Locales: 1<br />
-Plantas: 2<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 01/03/2012<br />
-Fecha Prevista Fin Obra: 01/09/2013<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-12000187#
+Localidad: Santorcaz#
+Código Postal: 28818#
+Lugar: C/ del Agua, 6#
+Promotora: NIEVES BRIHUEGA ALBARES#
+Viviendas: 2#
+Oficinas: 0#
+Locales: 1#
+Plantas: 2#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 01/03/2012#
+Fecha Prevista Fin Obra: 01/09/2013#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.231519444302355</longitude>
@@ -1038,19 +1039,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000193<br />
-Localidad: Madrid<br />
-Código Postal: 28050<br />
-Lugar:  C/ Fromista (parcela c-1 a-1 del paul de las tablas)<br />
-Promotora: COMUNIDADES GESTIONADAS S.A<br />
-Viviendas: 76<br />
-Oficinas: 1<br />
-Locales: 1<br />
-Plantas: 12<br />
-Escaleras:4<br />
-Fecha Prevista Inicio Obra: 20/02/2012<br />
-Fecha Prevista Fin Obra: 20/09/2013<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-12000193#
+Localidad: Madrid#
+Código Postal: 28050#
+Lugar:  C/ Fromista (parcela c-1 a-1 del paul de las tablas)#
+Promotora: COMUNIDADES GESTIONADAS S.A#
+Viviendas: 76#
+Oficinas: 1#
+Locales: 1#
+Plantas: 12#
+Escaleras:4#
+Fecha Prevista Inicio Obra: 20/02/2012#
+Fecha Prevista Fin Obra: 20/09/2013#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.66679999977608</longitude>
@@ -1068,20 +1069,20 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description><![CDATA[Nombre: COP-12000195<br />
-Localidad: Rivas - VaciaMadrid<br />
-Código Postal: 28529<br />
-Lugar:  Parcela RCb < 110-9. pp-b Cristo Rivas<br />
-Promotora: EMPRESA MUNICIPAL DE LA VIVIENDA DE RIVAS-VACIAMADRID<br />
-Viviendas: 203<br />
-Oficinas: 0<br />
-Locales: 4<br />
-Plantas: 7<br />
-Escaleras:12<br />
-Fecha Prevista Inicio Obra: 01/04/2012<br />
-Fecha Prevista Fin Obra: 01/10/2013<br />
-Modificación Arqueta: NO<br />
-Servicio:SI]]></description>
+			<description>Nombre: COP-12000195#
+Localidad: Rivas - VaciaMadrid#
+Código Postal: 28529#
+Lugar:  Parcela RCb,110-9. pp-b Cristo Rivas#
+Promotora: EMPRESA MUNICIPAL DE LA VIVIENDA DE RIVAS-VACIAMADRID#
+Viviendas: 203#
+Oficinas: 0#
+Locales: 4#
+Plantas: 7#
+Escaleras:12#
+Fecha Prevista Inicio Obra: 01/04/2012#
+Fecha Prevista Fin Obra: 01/10/2013#
+Modificación Arqueta: NO#
+Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.544016667168731</longitude>
 				<latitude>40.37960278191695</latitude>
@@ -1098,19 +1099,19 @@ Servicio:SI]]></description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000249<br />
-Localidad: Alcalá de Henares<br />
-Código Postal: 28801<br />
-Lugar:  Plaza San Diego, 5<br />
-Promotora: CARMEN BELLIDO ALOBERA<br />
-Viviendas: 2<br />
-Oficinas: 0<br />
-Locales: 2<br />
-Plantas: 2<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 01/06/2012<br />
-Fecha Prevista Fin Obra: 01/06/2013<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-12000249#
+Localidad: Alcalá de Henares#
+Código Postal: 28801#
+Lugar:  Plaza San Diego, 5#
+Promotora: CARMEN BELLIDO ALOBERA#
+Viviendas: 2#
+Oficinas: 0#
+Locales: 2#
+Plantas: 2#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 01/06/2012#
+Fecha Prevista Fin Obra: 01/06/2013#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.362997221935042</longitude>
@@ -1128,19 +1129,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000259<br />
-Localidad: Madrid<br />
-Código Postal: 28013<br />
-Lugar:  C/ Gran Vía, 48<br />
-Promotora: VALMARCASA PROMOTORES-CONSTRUCTORES S.L<br />
-Viviendas: 97<br />
-Oficinas: 0<br />
-Locales: 2<br />
-Plantas: 13<br />
-Escaleras:2<br />
-Fecha Prevista Inicio Obra: 21/02/2012<br />
-Fecha Prevista Fin Obra: 20/12/2012<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000259#
+Localidad: Madrid#
+Código Postal: 28013#
+Lugar:  C/ Gran Vía, 48#
+Promotora: VALMARCASA PROMOTORES-CONSTRUCTORES S.L#
+Viviendas: 97#
+Oficinas: 0#
+Locales: 2#
+Plantas: 13#
+Escaleras:2#
+Fecha Prevista Inicio Obra: 21/02/2012#
+Fecha Prevista Fin Obra: 20/12/2012#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.706274999894454</longitude>
@@ -1158,19 +1159,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000262<br />
-Localidad: Fuenlabrada<br />
-Código Postal: 28942<br />
-Lugar:  C/ del Maestro Esq C/ de las Ciencias, 22<br />
-Promotora: GADEPRA S.L<br />
-Viviendas: 12<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 6<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 01/04/2012<br />
-Fecha Prevista Fin Obra: 01/08/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000262#
+Localidad: Fuenlabrada#
+Código Postal: 28942#
+Lugar:  C/ del Maestro Esq C/ de las Ciencias, 22#
+Promotora: GADEPRA S.L#
+Viviendas: 12#
+Oficinas: 0#
+Locales: 0#
+Plantas: 6#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 01/04/2012#
+Fecha Prevista Fin Obra: 01/08/2013#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.812141666820488</longitude>
@@ -1188,19 +1189,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000285<br />
-Localidad: Madrid<br />
-Código Postal: 28050<br />
-Lugar:  Parcela Res-140. A uns 4.01<br />
-Promotora: ROSALES DE VALDEBEBAS, S. COOP MAD<br />
-Viviendas: 54<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 4<br />
-Escaleras:5<br />
-Fecha Prevista Inicio Obra: 01/06/2012<br />
-Fecha Prevista Fin Obra: 30/06/2014<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-12000285#
+Localidad: Madrid#
+Código Postal: 28050#
+Lugar:  Parcela Res-140. A uns 4.01#
+Promotora: ROSALES DE VALDEBEBAS, S. COOP MAD#
+Viviendas: 54#
+Oficinas: 0#
+Locales: 0#
+Plantas: 4#
+Escaleras:5#
+Fecha Prevista Inicio Obra: 01/06/2012#
+Fecha Prevista Fin Obra: 30/06/2014#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.632190211910356</longitude>
@@ -1218,19 +1219,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000300<br />
-Localidad: MADRID<br />
-Código Postal: 28045<br />
-Lugar:  C/ Ricardo Goizueta, 7<br />
-Promotora: CIVILCOST DESARROLLOS, S.A<br />
-Viviendas: 17<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 5<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 01/10/2012<br />
-Fecha Prevista Fin Obra: 01/06/2014<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000300#
+Localidad: MADRID#
+Código Postal: 28045#
+Lugar:  C/ Ricardo Goizueta, 7#
+Promotora: CIVILCOST DESARROLLOS, S.A#
+Viviendas: 17#
+Oficinas: 0#
+Locales: 0#
+Plantas: 5#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 01/10/2012#
+Fecha Prevista Fin Obra: 01/06/2014#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.691944445005811</longitude>
@@ -1248,19 +1249,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000310<br />
-Localidad: VALLECAS<br />
-Código Postal: 28038<br />
-Lugar:  C/ Baltasar Carrasco, 13<br />
-Promotora: EMPRESA MUNICIPAL DE LA VIVIENDA Y SUELO DE MADRID<br />
-Viviendas: 15<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 6<br />
-Escaleras:2<br />
-Fecha Prevista Inicio Obra: 01/05/2012<br />
-Fecha Prevista Fin Obra: 01/12/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000310#
+Localidad: VALLECAS#
+Código Postal: 28038#
+Lugar:  C/ Baltasar Carrasco, 13#
+Promotora: EMPRESA MUNICIPAL DE LA VIVIENDA Y SUELO DE MADRID#
+Viviendas: 15#
+Oficinas: 0#
+Locales: 0#
+Plantas: 6#
+Escaleras:2#
+Fecha Prevista Inicio Obra: 01/05/2012#
+Fecha Prevista Fin Obra: 01/12/2013#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.657841446614273</longitude>
@@ -1278,19 +1279,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000334<br />
-Localidad: Madrid<br />
-Código Postal: 28001<br />
-Lugar: C/ Villanueva, 4<br />
-Promotora: ANIDA OPERACIONES SINGULARES S.L<br />
-Viviendas: 13<br />
-Oficinas: 0<br />
-Locales: 3<br />
-Plantas: 5<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 30/04/2012<br />
-Fecha Prevista Fin Obra: 15/11/2013<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-12000334#
+Localidad: Madrid#
+Código Postal: 28001#
+Lugar: C/ Villanueva, 4#
+Promotora: ANIDA OPERACIONES SINGULARES S.L#
+Viviendas: 13#
+Oficinas: 0#
+Locales: 3#
+Plantas: 5#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 30/04/2012#
+Fecha Prevista Fin Obra: 15/11/2013#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.685056076444158</longitude>
@@ -1308,19 +1309,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000353<br />
-Localidad: Villarejo de Salvanes<br />
-Código Postal: 28590<br />
-Lugar:  C/ Autonomía, 19<br />
-Promotora: JUAN CARLOS ALGOVIA AGUDO<br />
-Viviendas: 2<br />
-Oficinas: 0<br />
-Locales: 1<br />
-Plantas: 3<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 07/05/2012<br />
-Fecha Prevista Fin Obra: 07/11/2012<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-12000353#
+Localidad: Villarejo de Salvanes#
+Código Postal: 28590#
+Lugar:  C/ Autonomía, 19#
+Promotora: JUAN CARLOS ALGOVIA AGUDO#
+Viviendas: 2#
+Oficinas: 0#
+Locales: 1#
+Plantas: 3#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 07/05/2012#
+Fecha Prevista Fin Obra: 07/11/2012#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.277066487023072</longitude>
@@ -1338,19 +1339,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000362<br />
-Localidad: Madrid<br />
-Código Postal: 28018<br />
-Lugar:  C/ Higinio Rodriguez<br />
-Promotora: EMVS DE MADRID<br />
-Viviendas: 43<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 4<br />
-Escaleras:2<br />
-Fecha Prevista Inicio Obra: 03/05/2012<br />
-Fecha Prevista Fin Obra: 25/09/2013<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-12000362#
+Localidad: Madrid#
+Código Postal: 28018#
+Lugar:  C/ Higinio Rodriguez#
+Promotora: EMVS DE MADRID#
+Viviendas: 43#
+Oficinas: 0#
+Locales: 0#
+Plantas: 4#
+Escaleras:2#
+Fecha Prevista Inicio Obra: 03/05/2012#
+Fecha Prevista Fin Obra: 25/09/2013#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.662502836590456</longitude>
@@ -1368,19 +1369,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000413<br />
-Localidad: Madrid<br />
-Código Postal: 28040<br />
-Lugar:  c/ Almansa, 101<br />
-Promotora: METROVACESA<br />
-Viviendas: 0<br />
-Oficinas: 10<br />
-Locales: 1<br />
-Plantas: 6<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 17/04/2012<br />
-Fecha Prevista Fin Obra: 31/07/2012<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000413#
+Localidad: Madrid#
+Código Postal: 28040#
+Lugar:  c/ Almansa, 101#
+Promotora: METROVACESA#
+Viviendas: 0#
+Oficinas: 10#
+Locales: 1#
+Plantas: 6#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 17/04/2012#
+Fecha Prevista Fin Obra: 31/07/2012#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.710000000481399</longitude>
@@ -1398,19 +1399,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000508<br />
-Localidad: Majadahonda<br />
-Código Postal: 28220<br />
-Lugar:  C/ Mariano Torroba cruce C/ Isaac Albeniz y Avda la Oliva<br />
-Promotora: IVIMA CONSEJERIA DE OBRAS PÚBLICAS, URBANISMO Y TRANSPORTE<br />
-Viviendas: 180<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 5<br />
-Escaleras:24<br />
-Fecha Prevista Inicio Obra: 02/07/2012<br />
-Fecha Prevista Fin Obra: 01/02/2013<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-12000508#
+Localidad: Majadahonda#
+Código Postal: 28220#
+Lugar:  C/ Mariano Torroba cruce C/ Isaac Albeniz y Avda la Oliva#
+Promotora: IVIMA CONSEJERIA DE OBRAS PÚBLICAS, URBANISMO Y TRANSPORTE#
+Viviendas: 180#
+Oficinas: 0#
+Locales: 0#
+Plantas: 5#
+Escaleras:24#
+Fecha Prevista Inicio Obra: 02/07/2012#
+Fecha Prevista Fin Obra: 01/02/2013#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.895277778051857</longitude>
@@ -1428,19 +1429,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000532<br />
-Localidad: Alcalá de Henares<br />
-Código Postal: 28806<br />
-Lugar:  Polígono parcela RC1, sector 115R, Espartales Norte<br />
-Promotora: EMV DE ALCALÁ DE HENARES<br />
-Viviendas: 172<br />
-Oficinas: 0<br />
-Locales: 4<br />
-Plantas: 7<br />
-Escaleras:11<br />
-Fecha Prevista Inicio Obra: 20/06/2012<br />
-Fecha Prevista Fin Obra: 20/06/2013<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-12000532#
+Localidad: Alcalá de Henares#
+Código Postal: 28806#
+Lugar:  Polígono parcela RC1, sector 115R, Espartales Norte#
+Promotora: EMV DE ALCALÁ DE HENARES#
+Viviendas: 172#
+Oficinas: 0#
+Locales: 4#
+Plantas: 7#
+Escaleras:11#
+Fecha Prevista Inicio Obra: 20/06/2012#
+Fecha Prevista Fin Obra: 20/06/2013#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.366666666836774</longitude>
@@ -1458,19 +1459,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000588<br />
-Localidad: Arganda del Rey<br />
-Código Postal: 28500<br />
-Lugar:  Polígono 30 en la UE nº1 de la UE, VALDELARCIPRESTRE<br />
-Promotora: LNC DE INVERSIONES S.A<br />
-Viviendas: 90<br />
-Oficinas: 1<br />
-Locales: 0<br />
-Plantas: 5<br />
-Escaleras:3<br />
-Fecha Prevista Inicio Obra: 03/07/2012<br />
-Fecha Prevista Fin Obra: 20/11/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000588#
+Localidad: Arganda del Rey#
+Código Postal: 28500#
+Lugar:  Polígono 30 en la UE nº1 de la UE, VALDELARCIPRESTRE#
+Promotora: LNC DE INVERSIONES S.A#
+Viviendas: 90#
+Oficinas: 1#
+Locales: 0#
+Plantas: 5#
+Escaleras:3#
+Fecha Prevista Inicio Obra: 03/07/2012#
+Fecha Prevista Fin Obra: 20/11/2013#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.444721475680979</longitude>
@@ -1488,19 +1489,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000617<br />
-Localidad: Madrid<br />
-Código Postal: 28045<br />
-Lugar:  Parcela E.1.1 Sector Bareño<br />
-Promotora: HIRUARTE BAREÑO S.L<br />
-Viviendas: 3<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 4<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 25/06/2012<br />
-Fecha Prevista Fin Obra: 15/09/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000617#
+Localidad: Madrid#
+Código Postal: 28045#
+Lugar:  Parcela E.1.1 Sector Bareño#
+Promotora: HIRUARTE BAREÑO S.L#
+Viviendas: 3#
+Oficinas: 0#
+Locales: 0#
+Plantas: 4#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 25/06/2012#
+Fecha Prevista Fin Obra: 15/09/2013#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.016780553784252</longitude>
@@ -1518,19 +1519,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000657<br />
-Localidad: leganés<br />
-Código Postal: 28911<br />
-Lugar:  C/ Juan Muñoz,11<br />
-Promotora: MAXIMINO, Mª DEL CARMEN, Mº TERESA DE JESÚS Y PURIFICACIÓN ORDOÑEZ GÓMEZ<br />
-Viviendas: 4<br />
-Oficinas: 2<br />
-Locales: 0<br />
-Plantas: 4<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 26/07/2012<br />
-Fecha Prevista Fin Obra: 26/04/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000657#
+Localidad: leganés#
+Código Postal: 28911#
+Lugar:  C/ Juan Muñoz,11#
+Promotora: MAXIMINO, Mª DEL CARMEN, Mº TERESA DE JESÚS Y PURIFICACIÓN ORDOÑEZ GÓMEZ#
+Viviendas: 4#
+Oficinas: 2#
+Locales: 0#
+Plantas: 4#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 26/07/2012#
+Fecha Prevista Fin Obra: 26/04/2013#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.766712781994849</longitude>
@@ -1548,19 +1549,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000667<br />
-Localidad: Parla<br />
-Código Postal: 28982<br />
-Lugar:  C/ Plan. Venus C/ V Constel Orion C/ V Const Perseo<br />
-Promotora: HNDAD. NTRA SRA. DE LA SOLEDAD SOC COOP. MAD<br />
-Viviendas: 80<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 3<br />
-Escaleras:8<br />
-Fecha Prevista Inicio Obra: 03/09/2012<br />
-Fecha Prevista Fin Obra: 03/02/2014<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000667#
+Localidad: Parla#
+Código Postal: 28982#
+Lugar:  C/ Plan. Venus C/ V Constel Orion C/ V Const Perseo#
+Promotora: HNDAD. NTRA SRA. DE LA SOLEDAD SOC COOP. MAD#
+Viviendas: 80#
+Oficinas: 0#
+Locales: 0#
+Plantas: 3#
+Escaleras:8#
+Fecha Prevista Inicio Obra: 03/09/2012#
+Fecha Prevista Fin Obra: 03/02/2014#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.75499806606151</longitude>
@@ -1578,19 +1579,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000669<br />
-Localidad: Boadilla del Monte<br />
-Código Postal: 28660<br />
-Lugar:  Plaza de la Constitución, 11 Parcela R.M 2.1 SUR-11 VALENOSO<br />
-Promotora: LEVITT -  BOSCH AYMERICH S.A<br />
-Viviendas: 200<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 4<br />
-Escaleras:16<br />
-Fecha Prevista Inicio Obra: 01/08/2012<br />
-Fecha Prevista Fin Obra: 01/08/2013<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-12000669#
+Localidad: Boadilla del Monte#
+Código Postal: 28660#
+Lugar:  Plaza de la Constitución, 11 Parcela R.M 2.1 SUR-11 VALENOSO#
+Promotora: LEVITT -  BOSCH AYMERICH S.A#
+Viviendas: 200#
+Oficinas: 0#
+Locales: 0#
+Plantas: 4#
+Escaleras:16#
+Fecha Prevista Inicio Obra: 01/08/2012#
+Fecha Prevista Fin Obra: 01/08/2013#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.873054218138462</longitude>
@@ -1608,19 +1609,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000673<br />
-Localidad: Guadarrama<br />
-Código Postal: 28440<br />
-Lugar:  Calleja del Potro S/N<br />
-Promotora: LA DEHESA DE GUADARRAMA S.L<br />
-Viviendas: 72<br />
-Oficinas: 0<br />
-Locales: 21<br />
-Plantas: 3<br />
-Escaleras:9<br />
-Fecha Prevista Inicio Obra: 12/07/2012<br />
-Fecha Prevista Fin Obra: 18/09/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000673#
+Localidad: Guadarrama#
+Código Postal: 28440#
+Lugar:  Calleja del Potro S/N#
+Promotora: LA DEHESA DE GUADARRAMA S.L#
+Viviendas: 72#
+Oficinas: 0#
+Locales: 21#
+Plantas: 3#
+Escaleras:9#
+Fecha Prevista Inicio Obra: 12/07/2012#
+Fecha Prevista Fin Obra: 18/09/2013#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-4.416942977832163</longitude>
@@ -1638,19 +1639,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000683<br />
-Localidad: Boadilla del Monte<br />
-Código Postal: 28660<br />
-Lugar: Lugar ru-8.4 P.P el Pastel Sector Sur 10,0<br />
-Promotora: RESIDENCIAL BOAMONTE C.B<br />
-Viviendas: 16<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 0<br />
-Escaleras:0<br />
-Fecha Prevista Inicio Obra: 01/08/2012<br />
-Fecha Prevista Fin Obra: 30/07/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000683#
+Localidad: Boadilla del Monte#
+Código Postal: 28660#
+Lugar: Lugar ru-8.4 P.P el Pastel Sector Sur 10,0#
+Promotora: RESIDENCIAL BOAMONTE C.B#
+Viviendas: 16#
+Oficinas: 0#
+Locales: 0#
+Plantas: 0#
+Escaleras:0#
+Fecha Prevista Inicio Obra: 01/08/2012#
+Fecha Prevista Fin Obra: 30/07/2013#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-4.416942977832163</longitude>
@@ -1668,19 +1669,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000717<br />
-Localidad: Colmenar Viejo<br />
-Código Postal: 28770<br />
-Lugar:  N/E PARCELA RU 6.1 DEL ARUNP Nº2 | SECTOR I,0<br />
-Promotora: SOLVIA DEVELOPMENT S.L<br />
-Viviendas: 33<br />
-Oficinas: 0<br />
-Locales: 1<br />
-Plantas: 0<br />
-Escaleras:0<br />
-Fecha Prevista Inicio Obra: 30/07/2012<br />
-Fecha Prevista Fin Obra: 31/12/2012<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000717#
+Localidad: Colmenar Viejo#
+Código Postal: 28770#
+Lugar:  N/E PARCELA RU 6.1 DEL ARUNP Nº2 | SECTOR I,0#
+Promotora: SOLVIA DEVELOPMENT S.L#
+Viviendas: 33#
+Oficinas: 0#
+Locales: 1#
+Plantas: 0#
+Escaleras:0#
+Fecha Prevista Inicio Obra: 30/07/2012#
+Fecha Prevista Fin Obra: 31/12/2012#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-4.416942977832163</longitude>
@@ -1698,19 +1699,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000752<br />
-Localidad: Paracuellos de Jarama<br />
-Código Postal: 28860<br />
-Lugar:  C/ Santa Ana, 23<br />
-Promotora: Arturo Mesa Lorenzo<br />
-Viviendas: 3<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 3<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 05/11/2012<br />
-Fecha Prevista Fin Obra: 30/11/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000752#
+Localidad: Paracuellos de Jarama#
+Código Postal: 28860#
+Lugar:  C/ Santa Ana, 23#
+Promotora: Arturo Mesa Lorenzo#
+Viviendas: 3#
+Oficinas: 0#
+Locales: 0#
+Plantas: 3#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 05/11/2012#
+Fecha Prevista Fin Obra: 30/11/2013#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-4.416942977832163</longitude>
@@ -1728,19 +1729,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000776<br />
-Localidad: Madrid<br />
-Código Postal: 28034<br />
-Lugar: N/E Parcela 24.1.1 del P.PO -II Montecarmelo, 0<br />
-Promotora:C.P PROMOTORA S.L<br />
-Viviendas: 58<br />
-Oficinas: 0<br />
-Locales: 1<br />
-Plantas: 5<br />
-Escaleras:6<br />
-Fecha Prevista Inicio Obra: 29/08/2012<br />
-Fecha Prevista Fin Obra: 29/11/2013<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-12000776#
+Localidad: Madrid#
+Código Postal: 28034#
+Lugar: N/E Parcela 24.1.1 del P.PO -II Montecarmelo, 0#
+Promotora:C.P PROMOTORA S.L#
+Viviendas: 58#
+Oficinas: 0#
+Locales: 1#
+Plantas: 5#
+Escaleras:6#
+Fecha Prevista Inicio Obra: 29/08/2012#
+Fecha Prevista Fin Obra: 29/11/2013#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-4.416942977832163</longitude>
@@ -1758,19 +1759,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-12000815<br />
-Localidad: Tres Cantos<br />
-Código Postal: <br />
-Lugar:  C/ Asturias<br />
-Promotora: BESCAREV. SOCIEDAD COOPERATIVA MADRILEÑA<br />
-Viviendas: 38<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 0<br />
-Escaleras:3<br />
-Fecha Prevista Inicio Obra: 24/09/2012<br />
-Fecha Prevista Fin Obra: 14/02/2014<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-12000815#
+Localidad: Tres Cantos#
+Código Postal: #
+Lugar:  C/ Asturias#
+Promotora: BESCAREV. SOCIEDAD COOPERATIVA MADRILEÑA#
+Viviendas: 38#
+Oficinas: 0#
+Locales: 0#
+Plantas: 0#
+Escaleras:3#
+Fecha Prevista Inicio Obra: 24/09/2012#
+Fecha Prevista Fin Obra: 14/02/2014#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-4.416942977832163</longitude>
@@ -1787,19 +1788,19 @@ Servicio:SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-12001021<br />
-Localidad: Morata de Tajuña<br />
-Código Postal: 28530<br />
-Lugar: Avda de la  Constitución, 6<br />
-Promotora: VERSOTO, S.L<br />
-Viviendas: 6<br />
-Oficinas: 0<br />
-Locales: 1<br />
-Plantas: 0<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 01/01/2013<br />
-Fecha Prevista Fin Obra: 01/01/2014<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12001021#
+Localidad: Morata de Tajuña#
+Código Postal: 28530#
+Lugar: Avda de la  Constitución, 6#
+Promotora: VERSOTO, S.L#
+Viviendas: 6#
+Oficinas: 0#
+Locales: 1#
+Plantas: 0#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 01/01/2013#
+Fecha Prevista Fin Obra: 01/01/2014#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.416799999883286</longitude>
@@ -1816,19 +1817,19 @@ Servicio:SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-12001022<br />
-Localidad: Madrid<br />
-Código Postal: 28013<br />
-Lugar: Plaza de España, 18<br />
-Promotora: METROVACESA<br />
-Viviendas: 50<br />
-Oficinas: 0<br />
-Locales: 7<br />
-Plantas: 40<br />
-Escaleras:2<br />
-Fecha Prevista Inicio Obra: 21/12/2012<br />
-Fecha Prevista Fin Obra: 01/12/2013<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-12001022#
+Localidad: Madrid#
+Código Postal: 28013#
+Lugar: Plaza de España, 18#
+Promotora: METROVACESA#
+Viviendas: 50#
+Oficinas: 0#
+Locales: 7#
+Plantas: 40#
+Escaleras:2#
+Fecha Prevista Inicio Obra: 21/12/2012#
+Fecha Prevista Fin Obra: 01/12/2013#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.70010067333159</longitude>
@@ -1845,19 +1846,19 @@ Servicio:SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-12001025<br />
-Localidad: Madrid<br />
-Código Postal: 28039<br />
-Lugar:  C/ Maria Juana, 24<br />
-Promotora: ICONSA S.L<br />
-Viviendas: 15<br />
-Oficinas: 0<br />
-Locales: 2<br />
-Plantas: 7<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 12/02/2013<br />
-Fecha Prevista Fin Obra: 12/02/2015<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12001025#
+Localidad: Madrid#
+Código Postal: 28039#
+Lugar:  C/ Maria Juana, 24#
+Promotora: ICONSA S.L#
+Viviendas: 15#
+Oficinas: 0#
+Locales: 2#
+Plantas: 7#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 12/02/2013#
+Fecha Prevista Fin Obra: 12/02/2015#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.699879917328922</longitude>
@@ -1875,19 +1876,20 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-11000012<br />
-Localidad: MÓSTOLES<br />
-Lugar:  C/ Ginebra, 20<br />
-Promotora:ACTIVITAS INVERSIÓN INMOBILIARIA S.L<br />
-Viviendas: 78<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 8<br />
-Escaleras:2<br />
-Fecha Prevista In<br />icio Obra: 01/12/2011
-Fecha Prevista Fin Obra: 31/07/2013<br />
-Modificación Arqueta: SI<br />
-Servicio:SI</description><br />
+			<description>Nombre: COP-11000012#
+Localidad: MÓSTOLES#
+Código Postal: #
+Lugar:  C/ Ginebra, 20#
+Promotora:ACTIVITAS INVERSIÓN INMOBILIARIA S.L#
+Viviendas: 78#
+Oficinas: 0#
+Locales: 0#
+Plantas: 8#
+Escaleras:2#
+Fecha Prevista In#icio Obra: 01/12/2011
+Fecha Prevista Fin Obra: 31/07/2013#
+Modificación Arqueta: SI#
+Servicio:SI</description>#
 			<LookAt>
 				<longitude>-4.000001649835235</longitude>
 				<latitude>39.99999529631962</latitude>
@@ -1904,19 +1906,20 @@ Servicio:SI</description><br />
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-11000039<br />
-Localidad: MADRID<br />
-Lugar:  C/ Enrique I, 7<br />
-Promotora:GUTIPAL OBRAS Y PROMOCIONES S.L<br />
-Viviendas: 12<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 4<br />
-Escaleras:1<br />
-Fecha Prevista In<br />icio Obra: 01/03/2012
-Fecha Prevista Fin Obra: 01/03/2013<br />
-Modificación Arqueta: SI<br />
-Servicio:SI</description><br />
+			<description>Nombre: COP-11000039#
+Localidad: MADRID#
+Código Postal: #
+Lugar:  C/ Enrique I, 7#
+Promotora:GUTIPAL OBRAS Y PROMOCIONES S.L#
+Viviendas: 12#
+Oficinas: 0#
+Locales: 0#
+Plantas: 4#
+Escaleras:1#
+Fecha Prevista In#icio Obra: 01/03/2012
+Fecha Prevista Fin Obra: 01/03/2013#
+Modificación Arqueta: SI#
+Servicio:SI</description>#
 			<LookAt>
 				<longitude>-3.620148911329802</longitude>
 				<latitude>40.42052285483526</latitude>
@@ -1933,19 +1936,19 @@ Servicio:SI</description><br />
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-11000043<br />
-Localidad: MADRID<br />
-CP: 28039<br />
-Lugar:  C/Maria Juana, 14<br />
-Promotora:BLAZ&amp;BER S.L<br />
-Viviendas: 13<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 4<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 01/04/2012<br />
-Fecha Prevista Fin Obra: 30/12/2013<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-11000043#
+Localidad: MADRID#
+CP: 28039#
+Lugar:  C/Maria Juana, 14#
+Promotora:BLAZ&amp;BER S.L#
+Viviendas: 13#
+Oficinas: 0#
+Locales: 0#
+Plantas: 4#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 01/04/2012#
+Fecha Prevista Fin Obra: 30/12/2013#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.620148915977874</longitude>
@@ -1963,19 +1966,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-11000145<br />
-Localidad: Boadilla del Monte<br />
-CP: 28660<br />
-Lugar:  C/ Romero Robledo, 17<br />
-Promotora: HISPANOGAR S.A<br />
-Viviendas: 44<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 2<br />
-Escaleras:0<br />
-Fecha Prevista Inicio Obra: 30/01/2012<br />
-Fecha Prevista Fin Obra: 30/11/2012<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-11000145#
+Localidad: Boadilla del Monte#
+CP: 28660#
+Lugar:  C/ Romero Robledo, 17#
+Promotora: HISPANOGAR S.A#
+Viviendas: 44#
+Oficinas: 0#
+Locales: 0#
+Plantas: 2#
+Escaleras:0#
+Fecha Prevista Inicio Obra: 30/01/2012#
+Fecha Prevista Fin Obra: 30/11/2012#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.620148915977874</longitude>
@@ -1993,19 +1996,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-11000065<br />
-Localidad: VALDEMORO<br />
-CP: 28343<br />
-Lugar:  Ambito a.a.4 cerro del castillo este parcela m-1b, 0<br />
-Promotora:URBANIZADORA INMOBILIARIA, S.A.<br />
-Viviendas: 60<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 6<br />
-Escaleras:3<br />
-Fecha Prevista Inicio Obra: 10/05/2012<br />
-Fecha Prevista Fin Obra: 17/12/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-11000065#
+Localidad: VALDEMORO#
+CP: 28343#
+Lugar:  Ambito a.a.4 cerro del castillo este parcela m-1b, 0#
+Promotora:URBANIZADORA INMOBILIARIA, S.A.#
+Viviendas: 60#
+Oficinas: 0#
+Locales: 0#
+Plantas: 6#
+Escaleras:3#
+Fecha Prevista Inicio Obra: 10/05/2012#
+Fecha Prevista Fin Obra: 17/12/2013#
+Modificación Arqueta: NO#
 Servicio:Si</description>
 			<LookAt>
 				<longitude>-3.6200819148598</longitude>
@@ -2023,19 +2026,19 @@ Servicio:Si</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-11000073<br />
-Localidad: MADRID<br />
-CP: 28018<br />
-Lugar:  Parcela 12.1 martinez de la Riva <br />
-Promotora:EMVS, S.A.<br />
-Viviendas: 103<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 10<br />
-Escaleras:2<br />
-Fecha Prevista Inicio Obra: 08/02/2012<br />
-Fecha Prevista Fin Obra: 12/07/2013<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-11000073#
+Localidad: MADRID#
+CP: 28018#
+Lugar:  Parcela 12.1 martinez de la Riva #
+Promotora:EMVS, S.A.#
+Viviendas: 103#
+Oficinas: 0#
+Locales: 0#
+Plantas: 10#
+Escaleras:2#
+Fecha Prevista Inicio Obra: 08/02/2012#
+Fecha Prevista Fin Obra: 12/07/2013#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.6200819148598</longitude>
@@ -2053,19 +2056,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-11000082<br />
-Localidad: LEGANÉS<br />
-CP: 28911<br />
-Lugar:  Avda Fuenlabrada,72<br />
-Promotora: PROMOCIONES INMOBILIARIAS MIMARCE, S.L<br />
-Viviendas: 21<br />
-Oficinas: 0<br />
-Locales: 1<br />
-Plantas: 4<br />
-Escaleras:3<br />
-Fecha Prevista Inicio Obra: 16/11/2011<br />
-Fecha Prevista Fin Obra: 05/04/2012<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-11000082#
+Localidad: LEGANÉS#
+CP: 28911#
+Lugar:  Avda Fuenlabrada,72#
+Promotora: PROMOCIONES INMOBILIARIAS MIMARCE, S.L#
+Viviendas: 21#
+Oficinas: 0#
+Locales: 1#
+Plantas: 4#
+Escaleras:3#
+Fecha Prevista Inicio Obra: 16/11/2011#
+Fecha Prevista Fin Obra: 05/04/2012#
+Modificación Arqueta: SI#
 Servicio:Si</description>
 			<LookAt>
 				<longitude>-3.6200819148598</longitude>
@@ -2083,19 +2086,19 @@ Servicio:Si</description>
 		</Placemark>
 		<Placemark>
 			<open>1</open>
-			<description>Nombre: COP-11000083<br />
-Localidad: VALDEMORO<br />
-CP: 28006<br />
-Lugar:  Avda Andalucia, 101<br />
-Promotora: ASOCIACIÓN C/PRINCIPE DE VERGARA 248<br />
-Viviendas: 36<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 4<br />
-Escaleras:2<br />
-Fecha Prevista Inicio Obra: 16/11/2011<br />
-Fecha Prevista Fin Obra: 12/04/2012<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-11000083#
+Localidad: VALDEMORO#
+CP: 28006#
+Lugar:  Avda Andalucia, 101#
+Promotora: ASOCIACIÓN C/PRINCIPE DE VERGARA 248#
+Viviendas: 36#
+Oficinas: 0#
+Locales: 0#
+Plantas: 4#
+Escaleras:2#
+Fecha Prevista Inicio Obra: 16/11/2011#
+Fecha Prevista Fin Obra: 12/04/2012#
+Modificación Arqueta: SI#
 Servicio:Si</description>
 			<LookAt>
 				<longitude>-3.6200819148598</longitude>
@@ -2112,19 +2115,19 @@ Servicio:Si</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-12000840<br />
-Localidad: Colmenar Viejo<br />
-Código Postal: 28770<br />
-Lugar: Colmenar I, Fase I, Portal I, Parcela RC-11.2 del S<br />
-Promotora: PROMOCIONES Y CONSTRUCCIONES PYC, PRYCONSA S.A<br />
-Viviendas: 18<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 3<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 01/03/2012<br />
-Fecha Prevista Fin Obra: 01/09/2013<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-12000840#
+Localidad: Colmenar Viejo#
+Código Postal: 28770#
+Lugar: Colmenar I, Fase I, Portal I, Parcela RC-11.2 del S#
+Promotora: PROMOCIONES Y CONSTRUCCIONES PYC, PRYCONSA S.A#
+Viviendas: 18#
+Oficinas: 0#
+Locales: 0#
+Plantas: 3#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 01/03/2012#
+Fecha Prevista Fin Obra: 01/09/2013#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.786563888991184</longitude>
@@ -2141,19 +2144,19 @@ Servicio:SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-12000848<br />
-Localidad: Madrid<br />
-Código Postal: 28044<br />
-Lugar: C/ Maria Zurita, 1<br />
-Promotora: BARSIL S.L.U<br />
-Viviendas: 31<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 5<br />
-Escaleras:2<br />
-Fecha Prevista Inicio Obra: 30/11/2012<br />
-Fecha Prevista Fin Obra: 30/12/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000848#
+Localidad: Madrid#
+Código Postal: 28044#
+Lugar: C/ Maria Zurita, 1#
+Promotora: BARSIL S.L.U#
+Viviendas: 31#
+Oficinas: 0#
+Locales: 0#
+Plantas: 5#
+Escaleras:2#
+Fecha Prevista Inicio Obra: 30/11/2012#
+Fecha Prevista Fin Obra: 30/12/2013#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.756277777777746</longitude>
@@ -2170,19 +2173,19 @@ Servicio:SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-12000795<br />
-Localidad: San Sebastian de los Reyes<br />
-Código Postal: 28703<br />
-Lugar: C/ Acacias, 2<br />
-Promotora: SOC. COOP . MAD EUROPA 2010<br />
-Viviendas: 18<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 5<br />
-Escaleras:2<br />
-Fecha Prevista Inicio Obra: 21/09/2012<br />
-Fecha Prevista Fin Obra: 06/09/2013<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-12000795#
+Localidad: San Sebastian de los Reyes#
+Código Postal: 28703#
+Lugar: C/ Acacias, 2#
+Promotora: SOC. COOP . MAD EUROPA 2010#
+Viviendas: 18#
+Oficinas: 0#
+Locales: 0#
+Plantas: 5#
+Escaleras:2#
+Fecha Prevista Inicio Obra: 21/09/2012#
+Fecha Prevista Fin Obra: 06/09/2013#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.621999999901966</longitude>
@@ -2199,19 +2202,19 @@ Servicio:SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-12000887<br />
-Localidad:Fuenlabrada<br />
-Código Postal: 28942<br />
-Lugar: Avda Universidad, Plan Parcial PPI - 7 Pol eSTE uNIVERSI, 38<br />
-Promotora:GADEPRA S.L<br />
-Viviendas: 10<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 2<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 25/10/2012<br />
-Fecha Prevista Fin Obra: 30/01/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000887#
+Localidad:Fuenlabrada#
+Código Postal: 28942#
+Lugar: Avda Universidad, Plan Parcial PPI - 7 Pol eSTE uNIVERSI, 38#
+Promotora:GADEPRA S.L#
+Viviendas: 10#
+Oficinas: 0#
+Locales: 0#
+Plantas: 2#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 25/10/2012#
+Fecha Prevista Fin Obra: 30/01/2013#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.813305555566189</longitude>
@@ -2228,19 +2231,19 @@ Servicio:SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-12000889<br />
-Localidad: Madrid<br />
-Código Postal: 28018<br />
-Lugar: C/Cáceres, Avda Cádiz, Avda Almeria, Avda Salamnca, 2<br />
-Promotora:EMPRESA MUNICIPAL DE LA VIVIENDA Y SUELO SA<br />
-Viviendas: 92<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 92<br />
-Escaleras:2<br />
-Fecha Prevista Inicio Obra: 19/11/2012<br />
-Fecha Prevista Fin Obra: 01/07/2014<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000889#
+Localidad: Madrid#
+Código Postal: 28018#
+Lugar: C/Cáceres, Avda Cádiz, Avda Almeria, Avda Salamnca, 2#
+Promotora:EMPRESA MUNICIPAL DE LA VIVIENDA Y SUELO SA#
+Viviendas: 92#
+Oficinas: 0#
+Locales: 0#
+Plantas: 92#
+Escaleras:2#
+Fecha Prevista Inicio Obra: 19/11/2012#
+Fecha Prevista Fin Obra: 01/07/2014#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.664266666661915</longitude>
@@ -2257,19 +2260,19 @@ Servicio:SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-12000892<br />
-Localidad: Aravaca<br />
-Código Postal: 28823<br />
-Lugar: C/ Poligono parcela p-2b, apr 09.1 camino del barral<br />
-Promotora: METROVACESA<br />
-Viviendas: 25<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 5<br />
-Escaleras:3<br />
-Fecha Prevista Inicio Obra: 29/11/2012<br />
-Fecha Prevista Fin Obra: 20/12/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000892#
+Localidad: Aravaca#
+Código Postal: 28823#
+Lugar: C/ Poligono parcela p-2b, apr 09.1 camino del barral#
+Promotora: METROVACESA#
+Viviendas: 25#
+Oficinas: 0#
+Locales: 0#
+Plantas: 5#
+Escaleras:3#
+Fecha Prevista Inicio Obra: 29/11/2012#
+Fecha Prevista Fin Obra: 20/12/2013#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.793888888901174</longitude>
@@ -2286,19 +2289,19 @@ Servicio:SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-12000849<br />
-Localidad: Madrid<br />
-Código Postal: 28044<br />
-Lugar: C/ Maria Zurita (fase 2, portales 3 y 4), 1<br />
-Promotora: BARSIL S.L.U<br />
-Viviendas: 41<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 5<br />
-Escaleras:2<br />
-Fecha Prevista Inicio Obra: 31/01/2013<br />
-Fecha Prevista Fin Obra: 31/03/2014<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000849#
+Localidad: Madrid#
+Código Postal: 28044#
+Lugar: C/ Maria Zurita (fase 2, portales 3 y 4), 1#
+Promotora: BARSIL S.L.U#
+Viviendas: 41#
+Oficinas: 0#
+Locales: 0#
+Plantas: 5#
+Escaleras:2#
+Fecha Prevista Inicio Obra: 31/01/2013#
+Fecha Prevista Fin Obra: 31/03/2014#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.756527778880485</longitude>
@@ -2315,19 +2318,19 @@ Servicio:SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-12000921<br />
-Localidad: Tres Cantos<br />
-Código Postal: 28760<br />
-Lugar: N/E Parcela rc 5a &quot;sector ar nuevo tres cantos&quot;,0<br />
-Promotora: C.P PROMOTORA SL<br />
-Viviendas: 48<br />
-Oficinas: 0<br />
-Locales: 6<br />
-Plantas: 7<br />
-Escaleras:4<br />
-Fecha Prevista Inicio Obra: 07/03/2013<br />
-Fecha Prevista Fin Obra: 07/01/2014<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-12000921#
+Localidad: Tres Cantos#
+Código Postal: 28760#
+Lugar: N/E Parcela rc 5a &quot;sector ar nuevo tres cantos&quot;,0#
+Promotora: C.P PROMOTORA SL#
+Viviendas: 48#
+Oficinas: 0#
+Locales: 6#
+Plantas: 7#
+Escaleras:4#
+Fecha Prevista Inicio Obra: 07/03/2013#
+Fecha Prevista Fin Obra: 07/01/2014#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.711388889306948</longitude>
@@ -2344,19 +2347,19 @@ Servicio:SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-12000931<br />
-Localidad: Móstoles<br />
-Código Postal: 28931<br />
-Lugar: C/ Ciudad Dolores Hidalgo, 9<br />
-Promotora: JEMACARPI S.L<br />
-Viviendas: 8<br />
-Oficinas: 0<br />
-Locales: 1<br />
-Plantas: 3<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 15/11/2012<br />
-Fecha Prevista Fin Obra: 19/11/2012<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000931#
+Localidad: Móstoles#
+Código Postal: 28931#
+Lugar: C/ Ciudad Dolores Hidalgo, 9#
+Promotora: JEMACARPI S.L#
+Viviendas: 8#
+Oficinas: 0#
+Locales: 1#
+Plantas: 3#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 15/11/2012#
+Fecha Prevista Fin Obra: 19/11/2012#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.999722220857728</longitude>
@@ -2373,19 +2376,19 @@ Servicio:SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-12000932<br />
-Localidad: Alcala de Henares<br />
-Código Postal: 28805<br />
-Lugar: C/ Cogolludo,14<br />
-Promotora: ZENOR OVERSEAS S.L <br />
-Viviendas: 0<br />
-Oficinas: 0<br />
-Locales: 3<br />
-Plantas: 1<br />
-Escaleras:0<br />
-Fecha Prevista Inicio Obra: 03/12/2012<br />
-Fecha Prevista Fin Obra: 29/03/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000932#
+Localidad: Alcala de Henares#
+Código Postal: 28805#
+Lugar: C/ Cogolludo,14#
+Promotora: ZENOR OVERSEAS S.L #
+Viviendas: 0#
+Oficinas: 0#
+Locales: 3#
+Plantas: 1#
+Escaleras:0#
+Fecha Prevista Inicio Obra: 03/12/2012#
+Fecha Prevista Fin Obra: 29/03/2013#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.326388888903057</longitude>
@@ -2402,19 +2405,19 @@ Servicio:SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-12000941<br />
-Localidad: Madrid<br />
-Código Postal: 28041<br />
-Lugar: Zona Parque Central ingenieros villaverde parcela 6.1<br />
-Promotora:QUINTA LOS MOLINOS COOPERATIVA DE MADRID<br />
-Viviendas: 77<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 7<br />
-Escaleras:4<br />
-Fecha Prevista Inicio Obra: 17/12/2012<br />
-Fecha Prevista Fin Obra: 30/06/2014<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-12000941#
+Localidad: Madrid#
+Código Postal: 28041#
+Lugar: Zona Parque Central ingenieros villaverde parcela 6.1#
+Promotora:QUINTA LOS MOLINOS COOPERATIVA DE MADRID#
+Viviendas: 77#
+Oficinas: 0#
+Locales: 0#
+Plantas: 7#
+Escaleras:4#
+Fecha Prevista Inicio Obra: 17/12/2012#
+Fecha Prevista Fin Obra: 30/06/2014#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.704233333334969</longitude>
@@ -2431,21 +2434,21 @@ Servicio:SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description><![CDATA[
-<b>Nombre</b>: COP-12000961<br />
-Localidad: San Fernando de Henares<br>
-Código Postal: 28830<br>
-Lugar: N/E Edificio 12.1 Business Park &quot;Puerta de Madrid&quot;, 0<br>
-Promotora: REDEVCO RETAIL ESPAÑA, S.LU.<br>
-Viviendas: 0<br>
-Oficinas: 0<br>
-Locales: 4<br>
-Plantas: 0<br>
-Escaleras:0<br>
-Fecha Prevista Inicio Obra: 27/11/2012<br>
-Fecha Prevista Fin Obra:15/12/2012<br>
-Modificación Arqueta: SI<br>
-Servicio:SI]]></description>
+			<description>
+Nombre: COP-12000961#
+Localidad: San Fernando de Henares#
+Código Postal: 28830#
+Lugar: N/E Edificio 12.1 Business Park &quot;Puerta de Madrid&quot;, 0#
+Promotora: REDEVCO RETAIL ESPAÑA, S.LU.#
+Viviendas: 0#
+Oficinas: 0#
+Locales: 4#
+Plantas: 0#
+Escaleras:0#
+Fecha Prevista Inicio Obra: 27/11/2012#
+Fecha Prevista Fin Obra:15/12/2012#
+Modificación Arqueta: SI#
+Servicio:SI</description>
 			<LookAt>
 				<longitude>-4.530000000034713</longitude>
 				<latitude>40.42999999762479</latitude>
@@ -2461,19 +2464,19 @@ Servicio:SI]]></description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-12000991<br />
-Localidad:Fuenlabrada<br />
-Código Postal: 28830<br />
-Lugar: C/ Claveles s/n parcela 9.4 sector pp ii-2 el vivero, 0<br />
-Promotora: GADEPRA S.L<br />
-Viviendas: 18<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 7<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 07/01/2013<br />
-Fecha Prevista Fin Obra: 02/12/2013<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-12000991#
+Localidad:Fuenlabrada#
+Código Postal: 28830#
+Lugar: C/ Claveles s/n parcela 9.4 sector pp ii-2 el vivero, 0#
+Promotora: GADEPRA S.L#
+Viviendas: 18#
+Oficinas: 0#
+Locales: 0#
+Plantas: 7#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 07/01/2013#
+Fecha Prevista Fin Obra: 02/12/2013#
+Modificación Arqueta: NO#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.822986110949186</longitude>
@@ -2490,19 +2493,19 @@ Servicio:SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-12001001<br />
-Localidad:Getafe<br />
-Código Postal: 28590<br />
-Lugar: Poligino Parcela, M 61.2 del p.p &quot;EL BERCIAL, UNIVERSIDAD&quot;<br />
-Promotora: ALAZAN SOCIEDAD COOPERATIVA MADRILEÑA DE VIVIENDAS<br />
-Viviendas: 40<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 7<br />
-Escaleras:2<br />
-Fecha Prevista Inicio Obra: 01/03/2012<br />
-Fecha Prevista Fin Obra: 01/09/2013<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-12001001#
+Localidad:Getafe#
+Código Postal: 28590#
+Lugar: Poligino Parcela, M 61.2 del p.p &quot;EL BERCIAL, UNIVERSIDAD&quot;#
+Promotora: ALAZAN SOCIEDAD COOPERATIVA MADRILEÑA DE VIVIENDAS#
+Viviendas: 40#
+Oficinas: 0#
+Locales: 0#
+Plantas: 7#
+Escaleras:2#
+Fecha Prevista Inicio Obra: 01/03/2012#
+Fecha Prevista Fin Obra: 01/09/2013#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.793888888888864</longitude>
@@ -2519,19 +2522,19 @@ Servicio:SI</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Nombre: COP-120001020<br />
-Localidad: Colmenar VIejo<br />
-Código Postal: 28770<br />
-Lugar: <br />
-Promotora: COMENTA ELITE 41, S.L<br />
-Viviendas: 24<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas: 2<br />
-Escaleras:0<br />
-Fecha Prevista Inicio Obra: 01/03/2012<br />
-Fecha Prevista Fin Obra: 01/09/2013<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-120001020#
+Localidad: Colmenar VIejo#
+Código Postal: 28770#
+Lugar: #
+Promotora: COMENTA ELITE 41, S.L#
+Viviendas: 24#
+Oficinas: 0#
+Locales: 0#
+Plantas: 2#
+Escaleras:0#
+Fecha Prevista Inicio Obra: 01/03/2012#
+Fecha Prevista Fin Obra: 01/09/2013#
+Modificación Arqueta: SI#
 Servicio:SI</description>
 			<LookAt>
 				<longitude>-3.766699999900476</longitude>
@@ -2549,19 +2552,19 @@ Servicio:SI</description>
 		</Placemark>
 		<Placemark>
 			<visibility>0</visibility>
-			<description>Nombre: COP-13001366<br />
-Localidad: MADRID<br />
-CP: 28050<br />
-Lugar:  Parque de Valdebebas, RE-02-134-c del ámbito U.S. 04.04, 134<br />
-Promotora: DACIA SOCIEDAD COOPERATIVA MADRILEÑA<br />
-Viviendas: 67<br />
-Oficinas: 0<br />
-Locales: 0<br />
-Plantas:11<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 06/05/2013<br />
-Fecha Prevista Fin Obra: 15/01/2014<br />
-Modificación Arqueta: SI<br />
+			<description>Nombre: COP-13001366#
+Localidad: MADRID#
+CP: 28050#
+Lugar:  Parque de Valdebebas, RE-02-134-c del ámbito U.S. 04.04, 134#
+Promotora: DACIA SOCIEDAD COOPERATIVA MADRILEÑA#
+Viviendas: 67#
+Oficinas: 0#
+Locales: 0#
+Plantas:11#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 06/05/2013#
+Fecha Prevista Fin Obra: 15/01/2014#
+Modificación Arqueta: SI#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>
@@ -2570,19 +2573,19 @@ Servicio: SI</description>
 		</Placemark>
 		<Placemark>
 			<visibility>0</visibility>
-			<description>Nombre: COP-13001202<br />
-Localidad: MADRID<br />
-CP: 28039<br />
-Lugar:  C/ Martínez, 17<br />
-Promotora: TEODORO SALMADOR BELTRAN<br />
-Viviendas: 8<br />
-Oficinas: 0<br />
-Locales:0<br />
-Plantas:4<br />
-Escaleras:1<br />
-Fecha Prevista Inicio Obra: 05/03/2013<br />
-Fecha Prevista Fin Obra: 20/10/2014<br />
-Modificación Arqueta: NO<br />
+			<description>Nombre: COP-13001202#
+Localidad: MADRID#
+CP: 28039#
+Lugar:  C/ Martínez, 17#
+Promotora: TEODORO SALMADOR BELTRAN#
+Viviendas: 8#
+Oficinas: 0#
+Locales:0#
+Plantas:4#
+Escaleras:1#
+Fecha Prevista Inicio Obra: 05/03/2013#
+Fecha Prevista Fin Obra: 20/10/2014#
+Modificación Arqueta: NO#
 Servicio: SI</description>
 			<styleUrl>#ptoblustyle0</styleUrl>
 			<Point>

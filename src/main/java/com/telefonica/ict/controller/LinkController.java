@@ -1,12 +1,13 @@
 package com.telefonica.ict.controller;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.util.List;
 import java.util.ResourceBundle;
 
 import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.Unmarshaller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -24,12 +25,11 @@ import com.telefonica.ict.services.ICTServices;
 import com.telefonica.ict.services.ProvinceServices;
 import com.telefonica.ict.tools.Utils;
 
-import de.micromata.opengis.kml.v_2_2_0.AltitudeMode;
-import de.micromata.opengis.kml.v_2_2_0.Coordinate;
+import de.micromata.opengis.kml.v_2_2_0.Document;
+import de.micromata.opengis.kml.v_2_2_0.Feature;
+import de.micromata.opengis.kml.v_2_2_0.Folder;
 import de.micromata.opengis.kml.v_2_2_0.Kml;
-import de.micromata.opengis.kml.v_2_2_0.KmlFactory;
 import de.micromata.opengis.kml.v_2_2_0.Placemark;
-import de.micromata.opengis.kml.v_2_2_0.Point;
 
 @Controller
 public class LinkController {
@@ -38,11 +38,8 @@ public class LinkController {
 	private ProvinceServices provinceServices;
 	@Autowired
 	private ICTServices ictServices;
-	
-	private File archivo;
 
-    private ResourceBundle rb=ResourceBundle.getBundle("application");
-   
+	private static ResourceBundle rb=ResourceBundle.getBundle("application");
 	
 	@RequestMapping(method=RequestMethod.GET,value="initPage.do")
 	public String initApp(@ModelAttribute("provinceFormBean") ProvinceFormBean provinceFormBean, ModelMap model) {
@@ -62,8 +59,7 @@ public class LinkController {
 		}
 		
 		try {
-			
-			buildKML(request, pro);
+			Utils.buildKML(request, pro);
 			return Utils.W_ICT;
 			
 		} catch (Exception e) {
@@ -71,54 +67,49 @@ public class LinkController {
 		}
 	}
 
-	private void buildKML(HttpServletRequest request, Province pro) throws FileNotFoundException, IOException {
+	
+	
+	@RequestMapping(method=RequestMethod.GET,value="volcar.do")
+	public String volcarDatos(HttpServletRequest request, ModelMap model) throws Exception {
+		Province province = provinceServices.getById(28);
+		dumpKml(request, province);
+		model.addAttribute("provinces", provinceServices.getAll());
+		return "home";
+	}
+	
+	
+	private void dumpKml(HttpServletRequest request, Province pro) throws Exception {
 		
+		JAXBContext jc = JAXBContext.newInstance(Kml.class);
 		ServletContext sc = request.getSession().getServletContext();
+
 		String FilePath = sc.getRealPath("/");
 		String outPath = FilePath + rb.getString("documents.store.path");
-		archivo = new File(outPath+"\\test.kml");
+		File archivo = new File(outPath+"\\madrid.kml");
 		
-		if(archivo.exists()){ 
-		    archivo.delete();
+
+		Unmarshaller u = jc.createUnmarshaller();
+		final Kml kml = (Kml) u.unmarshal(archivo);
+		Document doc = (Document)kml.getFeature();
+		
+		List<Feature> folders = (List<Feature>)doc.getFeature();
+
+		
+		for (Feature f:folders){
+			
+			Folder folder =(Folder)f;
+			
+			List<Feature> placemarks = (List<Feature>)folder.getFeature();
+			for (Feature pl:placemarks){
+				Placemark placemark = (Placemark)pl;
+				ICT ict = new ICT(placemark);
+				pro.addICT(ict);
+				ictServices.saveICT(ict);
+			}
 		}
-			
-		archivo.createNewFile();
-		
-		final Kml kml = KmlFactory.createKml();
-		
-		for (ICT ict:pro.getProvinceIcts()){
-			
-			// Create <Placemark> and set values.
-			Placemark placemark = KmlFactory.createPlacemark();
-			placemark.setName(ict.getNombre());
-			placemark.setVisibility(true);
-			placemark.setOpen(true);
-			placemark.setDescription(ict.toString());
-			placemark.setStyleUrl("#msn_blu-circle10");
-			
-			// Create <Point> and set values.
-			Point point = KmlFactory.createPoint();
-			point.setExtrude(false);
-			point.setAltitudeMode(AltitudeMode.RELATIVE_TO_SEA_FLOOR);
-//			//
-//			placemark.createAndSetLookAt()
-//			.withLongitude(-3.620148915977874)
-//			.withLatitude(40.42052285685661)
-//			.withAltitude(0)
-//			.withHeading(-7.685290764635505e-009)
-//			.withTilt(0)
-//			.withRange(74313.36489001928)
-//			.withAltitudeMode(AltitudeMode.RELATIVE_TO_SEA_FLOOR);
-			
-			// Add <coordinates>9.444652669565212,51.30473589438118,0<coordinates>.
-			point.getCoordinates().add(new Coordinate(ict.getLongitude()+","+ict.getLatitude()+","+ict.getAltitude()));
-			
-			placemark.setGeometry(point);      // <-- point is registered at placemark ownership.
-			kml.setFeature(placemark);         // <-- placemark is registered at kml ownership.
-			
-			
-		}
-		kml.marshal(archivo);           // <-- Print the KML structure to the con
+		provinceServices.updateProvince(pro);
 	}
+	
+
 }
 	

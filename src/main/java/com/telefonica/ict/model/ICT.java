@@ -3,6 +3,7 @@ package com.telefonica.ict.model;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -20,6 +21,10 @@ import com.telefonica.ict.tools.COP.Consulta.Situacion.Direccion;
 import com.telefonica.ict.tools.CoordinateConversion;
 import com.telefonica.ict.tools.Utils;
 
+import de.micromata.opengis.kml.v_2_2_0.Coordinate;
+import de.micromata.opengis.kml.v_2_2_0.Placemark;
+import de.micromata.opengis.kml.v_2_2_0.Point;
+
 @Entity
 @Table(name="T_ICTS")
 public class ICT {
@@ -30,7 +35,7 @@ public class ICT {
 	/** Campos propios del KML **/
 	private String longitude;
 	private String latitude;
-	private String altitude;
+	private String altitude = "0";
 	/**private String heading;
 	private String tilt;
 	private String range;
@@ -54,7 +59,6 @@ public class ICT {
 	@ManyToOne
 	private Province province;
 	
-
 	
 	public ICT(){
 	}
@@ -71,8 +75,6 @@ public class ICT {
 		//Coordenadas		
 		setCoordenadas(coord);
 		
-		this.altitude = "0";
-
 		this.localidad = dir.getLocalidad();
 		this.codigoPostal = ((Short)dir.getCP()).toString();
 		while (codigoPostal.length()<5){
@@ -93,6 +95,88 @@ public class ICT {
 		//this.servicio = servicio;
 		//this.province = province;
 		normalizeFields();
+	}
+	
+	public ICT (Placemark pl){
+		//Coordenadas
+		Point geo = (Point)pl.getGeometry();
+		
+		List<Coordinate> coords= geo.getCoordinates();
+		
+		for(Coordinate c:coords){
+			latitude=Double.toString(c.getLatitude());
+			longitude = Double.toString(c.getLongitude());
+		}
+		
+		try {
+			splitDescription(pl.getDescription());
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		
+		normalizeFields();
+	}
+	
+	private void splitDescription(String desc) throws ParseException{
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		
+		String[] splittedDesc = desc.split("#");
+		
+		for (int i=0;i<splittedDesc.length;i++){
+			String[] splittedField = splittedDesc[i].split(":");
+			if (splittedField.length>1){
+				String field = splittedField[1];
+				switch (i) {
+				case 0:
+					this.nombre = field.trim();
+					break;
+				case 1:
+					this.localidad = field.trim();
+					break;
+				case 2:
+					this.codigoPostal = field.trim();
+					break;
+				case 3:
+					this.lugar = field.trim();
+					break;
+				case 4:
+					this.promotora = field.trim();
+					break;
+				case 5:
+					this.viviendas = new Integer(field.trim());
+					break;
+				case 6:
+					this.oficinas = new Integer(field.trim());
+					break;
+				case 7:
+					this.locales = new Integer(field.trim());
+					break;
+				case 8:
+					this.plantas = new Integer(field.trim());
+					break;
+				case 9:
+					this.escaleras = new Integer(field.trim());
+					break;
+				case 10:
+					this.fechaIni = sdf.parse(field.trim());
+					break;
+				case 11:
+					this.fechaFin = sdf.parse(field.trim());
+					break;
+				case 12:
+					this.modiArqueta = stringToBooleanTransformer(field.trim());
+					break;
+				case 13:
+					this.servicio = stringToBooleanTransformer(field.trim());
+					break;
+				
+				default:
+					break;
+				}
+			}
+		}
+		
 	}
 
 
@@ -412,19 +496,31 @@ public class ICT {
 		
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		
-		return "<strong>Localidad:</strong> " + localidad + "<br>" +
-			   "<strong>Código Postal:</strong> " + codigoPostal + "<br>" +
-			   "<strong>Lugar:</strong> " + lugar + "<br>" +
-			   "<strong>Promotora:</strong> " + promotora + "<br>" +
-			   "<strong>Viviendas:</strong> " + viviendas + "<br>" +
-			   "<strong>Oficinas:</strong> " + oficinas + "<br>" +
-			   "<strong>Locales:</strong> " + locales + "<br>" +
-			   "<strong>Plantas:</strong> " + plantas + "<br>" +
-			   "<strong>Escaleras:</strong> " + escaleras + "<br>" +
-			   "<strong>Fecha Prevista Inicio Obra:</strong> " + sdf.format(fechaIni) + "<br>" +
-			   "<strong>Fecha Prevista Fin Obra:</strong> " + sdf.format(fechaFin) + "<br>" +
-			   "<strong>Modificación Arqueta:</strong> " + booleanTransformer(modiArqueta) + "<br>" +
-			   "<strong>Servicio:</strong> " + booleanTransformer(servicio)+ "<br>";
+		StringBuilder sb = new StringBuilder();
+		
+		sb.append("<strong>Localidad:</strong> " + localidad + "<br>" +
+				   "<strong>Código Postal:</strong> " + codigoPostal + "<br>" +
+				   "<strong>Lugar:</strong> " + lugar + "<br>" +
+				   "<strong>Promotora:</strong> " + promotora + "<br>" +
+				   "<strong>Viviendas:</strong> " + viviendas + "<br>" +
+				   "<strong>Oficinas:</strong> " + oficinas + "<br>" +
+				   "<strong>Locales:</strong> " + locales + "<br>" +
+				   "<strong>Plantas:</strong> " + plantas + "<br>" +
+				   "<strong>Escaleras:</strong> " + escaleras + "<br>");
+		 if (fechaIni!=null)
+			 sb.append("<strong>Fecha Prevista Inicio Obra:</strong> " + sdf.format(fechaIni) + "<br>");
+		 if (fechaFin!=null)
+			 sb.append("<strong>Fecha Prevista Fin Obra:</strong> " + sdf.format(fechaFin) + "<br>");
+		 if (modiArqueta!=null)
+			 sb.append("<strong>Modificación Arqueta:</strong> " + booleanToStringTransformer(modiArqueta) + "<br>");
+		 if (servicio!=null)  
+			 sb.append("<strong>Servicio:</strong> " + booleanToStringTransformer(servicio)+ "<br>");
+		 
+		 
+		return sb.toString();
+			  
+			  
+			  
 		
 	}
 	
@@ -433,10 +529,21 @@ public class ICT {
 	 * @param el elemento recibido
 	 * @return Cadena "SI/NO" en función del valor del elemento recibido
 	 */
-	private String booleanTransformer(Boolean el){
+	private String booleanToStringTransformer(Boolean el){
 		
 		return el!=null && el.booleanValue()?"SI":"NO";
 	}
+	
+	/**
+	 * Transforma elemento Cadena recibido en un booleano"
+	 * @param el elemento recibido
+	 * @return Boolean "true/false" en función del valor del elemento recibido
+	 */
+	private Boolean stringToBooleanTransformer(String el){
+		
+		return el!=null && el.equals("SI")?true:false;
+	}
+
 
 	
 }
