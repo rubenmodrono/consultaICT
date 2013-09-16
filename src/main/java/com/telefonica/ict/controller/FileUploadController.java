@@ -1,6 +1,7 @@
 package com.telefonica.ict.controller;
 
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -9,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Unmarshaller;
 
+import org.apache.commons.io.input.BOMInputStream;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -68,13 +70,21 @@ public class FileUploadController {
     		 
     		  JAXBContext jc = JAXBContext.newInstance(COP.class.getPackage().getName());
               Unmarshaller u = jc.createUnmarshaller();
-              COP ictReceived = (COP)u.unmarshal(mpf.getInputStream());
+              
+              BOMInputStream bomIn = new BOMInputStream(mpf.getInputStream());
+              
+              if (bomIn.hasBOM()){
+            	  System.out.println("Este tenia");
+              }
+              
+              COP ictReceived = (COP)u.unmarshal(new InputStreamReader(bomIn,"UTF-8"));
               
               //Se genera el ICT a partir de los datos recibidos en el XML
               ICT ict = new ICT(ictReceived);
+              
               ict.setNombre(Utils.decodeICTName(mpf.getOriginalFilename()));
               
-              //Provincia a la que se asignará el ICT en BBDD;
+              //Provincia a la que se asignara el ICT en BBDD;
               Province province = provinceServices.getById((int)ictReceived.getConsulta().getSituacion().getDireccion().getINEProvincia());
               
               //Comprobamos que ese ICT no exista
@@ -88,7 +98,7 @@ public class FileUploadController {
 	              provinceServices.updateProvince(province);
 	              
               } else {
-            	  throw new Exception("El ICT que se intenta añadir ya existe");
+            	  throw new Exception("El ICT que se intenta a\u00F1adir ya existe");
               }
              
               
@@ -118,7 +128,6 @@ public class FileUploadController {
              files.add(fileMeta);
          }
         // result will be like this
-        // [{"fileName":"app_engine-85x77.png","fileSize":"8 Kb","fileType":"image/png"},...]
         return files;
     }
 	 

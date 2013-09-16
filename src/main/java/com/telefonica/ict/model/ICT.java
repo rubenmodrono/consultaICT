@@ -395,7 +395,7 @@ public class ICT {
 	}
 
 	/**
-	 * Función encargada de parsear las coordenadas recibidas 
+	 * Funcion encargada de parsear las coordenadas recibidas 
 	 * dependiendo del formato en el cual se recogen en el xml
 	 * @param coord clase Coordenadas importado del xml.
 	 */
@@ -418,8 +418,8 @@ public class ICT {
 			CoordinateConversion cc = new CoordinateConversion();
 			StringBuilder utm = new StringBuilder();
 			utm.append(coord.getHuso());
-			//Aquí se ha metido hardcoded el hemisferio norte, ya que 
-			//de este modo se podra reutilzar la clase de conversión 
+			//Aqui se ha metido hardcoded el hemisferio norte, ya que 
+			//de este modo se podra reutilzar la clase de conversion 
 			//creada por IBM
 			utm.append(" N ");
 			utm.append(coord.getX());
@@ -432,7 +432,7 @@ public class ICT {
 	}
 	
 	/**
-	 * Método encargado de normalizar los campos recibidos 
+	 * Metodo encargado de normalizar los campos recibidos 
 	 * como cadenas, para que sigan un formato coherente en 
 	 * todos los casos
 	 */
@@ -499,7 +499,7 @@ public class ICT {
 		StringBuilder sb = new StringBuilder();
 		
 		sb.append("<strong>Localidad:</strong> " + localidad + "<br>" +
-				   "<strong>Código Postal:</strong> " + codigoPostal + "<br>" +
+				   "<strong>C.P.:</strong> " + codigoPostal + "<br>" +
 				   "<strong>Lugar:</strong> " + lugar + "<br>" +
 				   "<strong>Promotora:</strong> " + promotora + "<br>" +
 				   "<strong>Viviendas:</strong> " + viviendas + "<br>" +
@@ -512,7 +512,7 @@ public class ICT {
 		 if (fechaFin!=null)
 			 sb.append("<strong>Fecha Prevista Fin Obra:</strong> " + sdf.format(fechaFin) + "<br>");
 		 if (modiArqueta!=null)
-			 sb.append("<strong>Modificación Arqueta:</strong> " + booleanToStringTransformer(modiArqueta) + "<br>");
+			 sb.append("<strong>Modificaci\u00F3n Arqueta:</strong> " + booleanToStringTransformer(modiArqueta) + "<br>");
 		 if (servicio!=null)  
 			 sb.append("<strong>Servicio:</strong> " + booleanToStringTransformer(servicio)+ "<br>");
 		 
@@ -525,9 +525,9 @@ public class ICT {
 	}
 	
 	/**
-	 * Transforma elemento Booleano recibido en una cadena "SI" ó "NO"
+	 * Transforma elemento Booleano recibido en una cadena "SI" o "NO"
 	 * @param el elemento recibido
-	 * @return Cadena "SI/NO" en función del valor del elemento recibido
+	 * @return Cadena "SI/NO" en funcion del valor del elemento recibido
 	 */
 	private String booleanToStringTransformer(Boolean el){
 		
@@ -537,7 +537,7 @@ public class ICT {
 	/**
 	 * Transforma elemento Cadena recibido en un booleano"
 	 * @param el elemento recibido
-	 * @return Boolean "true/false" en función del valor del elemento recibido
+	 * @return Boolean "true/false" en funcion del valor del elemento recibido
 	 */
 	private Boolean stringToBooleanTransformer(String el){
 		

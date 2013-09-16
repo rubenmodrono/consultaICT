@@ -5,8 +5,16 @@ import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 @JsonIgnoreProperties({"bytes"})
 public class FileUploadFormBean {
 
+	 public enum DeleteType {
+	       DELETE;
+	    }
+	    	
 	 private String name;
 	 private String size;
+	 private String url;
+	 private String thumbnailURL;
+	 private String deleteURL;
+	 private DeleteType deleteType;
 	 private String type;
 	 
 	 private byte[] bytes;
@@ -43,7 +51,37 @@ public class FileUploadFormBean {
 		this.bytes = bytes;
 	}
 
-	
+	public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
+	}
+
+	public String getThumbnailURL() {
+		return thumbnailURL;
+	}
+
+	public void setThumbnailURL(String thumbnailURL) {
+		this.thumbnailURL = thumbnailURL;
+	}
+
+	public String getDeleteURL() {
+		return deleteURL;
+	}
+
+	public void setDeleteURL(String deleteURL) {
+		this.deleteURL = deleteURL;
+	}
+
+	public DeleteType getDeleteType() {
+		return deleteType;
+	}
+
+	public void setDeleteType(DeleteType deleteType) {
+		this.deleteType = deleteType;
+	}
 	 
 
 }
