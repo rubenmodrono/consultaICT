@@ -18,6 +18,12 @@
                     <i class="icon-ban-circle icon-white"></i>
                     <span>Cancelar</span>
                 </button>
+                <button type="button" class="btn btn-danger delete">
+                    <i class="icon-trash icon-white"></i>
+                    <span>Borrar</span>
+                </button>
+                <input type="checkbox" class="toggle">
+                <!-- The loading indicator is shown during file processing -->
                 <span class="fileupload-loading"></span>
             </div>
             <!-- The global progress information -->
@@ -80,6 +86,10 @@
         </td>
     </tr>
 {% } %}
+</script>
+<!-- The template to display files available for download -->
+<script id="template-download" type="text/x-tmpl">
+
 </script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <!-- The jQuery UI widget factory, can be omitted if jQuery UI is already included -->

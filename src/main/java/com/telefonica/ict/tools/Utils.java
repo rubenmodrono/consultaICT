@@ -75,8 +75,12 @@ public class Utils {
 		if(archivo.exists()){ 
 		    archivo.delete();
 		}
-			
-		archivo.createNewFile();
+		try{
+			archivo.createNewFile();
+		} catch(Exception e ){
+			e.printStackTrace();
+			throw new FileNotFoundException();
+		}
 		
 		final Kml kml = KmlFactory.createKml();
 		
