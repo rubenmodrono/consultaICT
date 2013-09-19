@@ -60,14 +60,14 @@ public class LinkController {
 		
 		try {
 			Utils.buildKML(request, pro);
-			return Utils.W_ICT;
+			return pro.getProvinceId().toString();
 			
 		} catch (Exception e) {
 			return Utils.ERROR;
 		}
 	}
 
-	
+/*
 	
 	@RequestMapping(method=RequestMethod.GET,value="volcar.do")
 	public String volcarDatos(HttpServletRequest request, ModelMap model) throws Exception {
@@ -110,6 +110,6 @@ public class LinkController {
 		provinceServices.updateProvince(pro);
 	}
 	
-
+*/
 }
 	

@@ -22,9 +22,10 @@ function loadKML(){
 	
 	var map = initMap();
 	var myParser = new geoXML3.parser({map: map, singleInfoWindow:true});
-	var kmlUrl='resources/documents/test.kml';
+	
 	
 	var value =  $('#combobox').val();
+	var kmlUrl='resources/documents/'+value+'.kml';
 	
 	if (value !=0){
 		//se hace una llamada sincrona 
@@ -40,7 +41,7 @@ function loadKML(){
 			  }
 			});
 		
-		if (result.responseText=="ict"){
+		if (result.responseText==value){
 			myParser.parse(kmlUrl);
 		}
 	}

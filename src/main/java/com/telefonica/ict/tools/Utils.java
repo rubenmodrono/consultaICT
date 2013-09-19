@@ -70,7 +70,7 @@ public class Utils {
 		ServletContext sc = request.getSession().getServletContext();
 		String FilePath = sc.getRealPath("/");
 		String outPath = FilePath + rb.getString("documents.store.path");
-		File archivo = new File(outPath+"\\test.kml");
+		File archivo = new File(outPath+"\\"+ pro.getProvinceId().toString() + ".kml");
 		
 		if(archivo.exists()){ 
 		    archivo.delete();
