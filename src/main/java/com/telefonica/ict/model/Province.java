@@ -42,6 +42,15 @@ public class Province {
 		return Collections.unmodifiableSet(provinceIcts);
 	}
 	
+	public ICT getICTfromList(ICT ict){
+		for (ICT i:provinceIcts){
+			if (i.getNombre().equals(ict.getNombre())){
+				return i;
+			}
+		}
+		return null;
+	}
+	
 	public void addICT(ICT ict){
 		ict.setProvince(this);
 		provinceIcts.add(ict);

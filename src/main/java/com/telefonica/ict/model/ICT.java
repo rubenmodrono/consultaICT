@@ -97,6 +97,39 @@ public class ICT {
 		normalizeFields();
 	}
 	
+	public void mergeICTReveived(COP cop) throws ParseException{
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		
+		Consulta cons = cop.getConsulta();
+		Coordenadas coord = cons.getSituacion().getCoordenadas();
+		Direccion dir = cons.getSituacion().getDireccion();
+		Descripcion desc = cons.getDescripcion();
+
+		//Coordenadas		
+		setCoordenadas(coord);
+		
+		this.localidad = dir.getLocalidad();
+		this.codigoPostal = ((Short)dir.getCP()).toString();
+		while (codigoPostal.length()<5){
+			codigoPostal = "0"+codigoPostal;
+		}
+		this.lugar = dir.getTipoVia()+" "+dir.getNombreVia();
+		
+		
+		this.promotora = desc.getNombrePromotor();
+		this.viviendas = (int)desc.getNumeroViviendas();
+		this.oficinas = (int)desc.getNumeroOficinas();
+		this.locales = (int)desc.getNumeroLocales();
+		this.plantas = (int)desc.getNumeroPlantas();
+		this.escaleras = (int)desc.getNumeroEscaleras();
+		this.fechaIni = sdf.parse(desc.getFechaInicio());
+		this.fechaFin = sdf.parse(desc.getFechaFin());
+		//this.modiArqueta = ;
+		//this.servicio = servicio;
+		//this.province = province;
+		normalizeFields();
+	}
+	
 	public ICT (Placemark pl){
 		//Coordenadas
 		Point geo = (Point)pl.getGeometry();

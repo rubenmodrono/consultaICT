@@ -98,7 +98,9 @@ public class FileUploadController {
 	              provinceServices.updateProvince(province);
 	              
               } else {
-            	  ictServices.updateICT(ict);          	 
+            	  ICT merged = province.getICTfromList(ict);
+            	  merged.mergeICTReveived(ictReceived);
+            	  ictServices.updateICT(merged);          	 
               }
              
               
