@@ -18,11 +18,6 @@
                     <i class="icon-ban-circle icon-white"></i>
                     <span>Cancelar</span>
                 </button>
-                <button type="button" class="btn btn-danger delete">
-                    <i class="icon-trash icon-white"></i>
-                    <span>Borrar</span>
-                </button>
-                <input type="checkbox" class="toggle">
                 <!-- The loading indicator is shown during file processing -->
                 <span class="fileupload-loading"></span>
             </div>
