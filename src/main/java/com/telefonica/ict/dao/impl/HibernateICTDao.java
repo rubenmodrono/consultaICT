@@ -39,4 +39,10 @@ public class HibernateICTDao implements ICTDao {
 		getCurrentSession().persist(ict);
 	}
 
+
+	@Override
+	public void mergeICT(ICT ict) {
+		getCurrentSession().merge(ict);	
+	}
+
 }

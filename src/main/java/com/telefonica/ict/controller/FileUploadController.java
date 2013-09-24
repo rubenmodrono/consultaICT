@@ -98,7 +98,7 @@ public class FileUploadController {
 	              provinceServices.updateProvince(province);
 	              
               } else {
-            	  throw new Exception("El ICT que se intenta a\u00F1adir ya existe");
+            	  ictServices.updateICT(ict);          	 
               }
              
               

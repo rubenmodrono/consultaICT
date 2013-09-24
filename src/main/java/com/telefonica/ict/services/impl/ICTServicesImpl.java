@@ -32,6 +32,13 @@ public class ICTServicesImpl implements ICTServices {
 		dao.persistICT(ict);
 	}
 
+
+	public void updateICT(ICT ict) {
+		dao.mergeICT(ict);
+	}
+	
+	
+
 	
 
 }
